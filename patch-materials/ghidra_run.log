@@ -1,0 +1,189 @@
+INFO  Using log config file: jar:file:/C:/ghidra_ws/ghidra-dl/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: C:\Users\leowo\.config\TeleAgent\users\v1_public_1903018843537604612\ghidra\ghidra_12.1.4_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: C:\Users\leowo\.config\TeleAgent\users\v1_public_1903018843537604612\ghidra\ghidra_12.1.4_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (726 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (2377 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\ghidra_ws\msfs32-analysis\scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: C:\ghidra_ws\msfs32-analysis\proj\MSFS32 (HeadlessAnalyzer)  
+INFO  Creating project: C:\ghidra_ws\msfs32-analysis\proj\MSFS32 (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: C:\ghidra_ws\msfs32-analysis\proj\MSFS32 (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///C:/ghidra_ws/msfs32-analysis/MSFS32.dll (HeadlessAnalyzer)  
+INFO  Using Loader: Portable Executable (PE) (ProgramLoader)  
+INFO  Using Language/Compiler: x86:LE:32:default:windows (ProgramLoader)  
+INFO  Using Library Search Path: [., C:\WINDOWS\SysWOW64, C:\ghidra_ws\jdk21\jdk-21.0.12.1+1\bin, C:\WINDOWS\Sun\Java\bin, C:\WINDOWS\system32, C:\WINDOWS, C:\Program Files\PowerShell\7, C:\Program Files\TeleAgent\resources\scheduler\bin, C:\Users\leowo\.local\share\TeleAgent\runtimes\ripgrep\win32-x64, C:\Users\leowo\.local\share\TeleAgent\runtimes\node, C:\Users\leowo\.local\share\TeleAgent\runtimes\python, C:\Users\leowo\.local\share\TeleAgent\runtimes\python\Scripts, C:\Program Files\Microsoft\jdk-17.0.19.10-hotspot\bin, C:\WINDOWS\System32\Wbem, C:\WINDOWS\System32\WindowsPowerShell\v1.0\, C:\WINDOWS\System32\OpenSSH\, C:\ProgramData\chocolatey\bin, C:\Program Files\Tailscale\, C:\Program Files (x86)\NetSarang\Xshell 8\, C:\Program Files\dotnet\, C:\Users\leowo\AppData\Local\Programs\Python\Python312\, C:\Users\leowo\AppData\Local\Programs\Python\Python312\Scripts\, C:\Program Files\nodejs\, C:\Program Files\Git\cmd, C:\Program Files\PowerShell\7\, C:\Program Files\GitHub CLI\, C:\Program Files\Go\bin, C:\Program Files (x86)\cloudflared\, C:\Users\leowo\.cargo\bin, C:\Users\leowo\AppData\Local\Microsoft\WindowsApps, C:\Users\leowo\AppData\Local\Programs\Microsoft VS Code\bin, C:\Users\leowo\AppData\Local\Programs\Fiddler, C:\Program Files\nodejs\node.exe, C:\Users\leowo\AppData\Roaming\npm, C:\Users\leowo\AppData\Local\Microsoft\WinGet\Packages\steipete.gogcli_Microsoft.Winget.Source_8wekyb3d8bbwe, C:\Users\leowo\AppData\Local\Microsoft\WinGet\Packages\Skylot.jadx_Microsoft.Winget.Source_8wekyb3d8bbwe, C:\Users\leowo\AppData\Local\Microsoft\WinGet\Packages\Microsoft.Sysinternals.Suite_Microsoft.Winget.Source_8wekyb3d8bbwe, C:\Users\leowo\go\bin, C:\Users\leowo\AppData\Local\Microsoft\WinGet\Links] (ProgramLoader)  
+WARN  Invalid or missing function at 4d511944 (ExportDataDirectory)  
+WARN  Invalid or missing function at 100182cc (ExportDataDirectory)  
+INFO  TLS callbacks at 68f05874 (TLSDirectory)  
+WARN  Invalid or missing function at 69ea73cc (ExportDataDirectory)  
+INFO  Additional info:
+Loading file:///C:/ghidra_ws/msfs32-analysis/MSFS32.dll?MD5=e72c59921203ef53b6058a37e6848797...
+------------------------------------------------
+
+Searching 35 paths for library ADVAPI32.DLL...
+Loading file:///C:/WINDOWS/SysWOW64/advapi32.dll?MD5=cb8d46f0515a024c59a86bc4632762f5...
+Created exports file: C:\Users\leowo\.config\TeleAgent\users\v1_public_1903018843537604612\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\advapi32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 35 paths for library GAPI32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 35 paths for library GDI32.DLL...
+Loading file:///C:/WINDOWS/SysWOW64/gdi32.dll?MD5=9c67ce6a11474cee803b7e308e3889ce...
+Created exports file: C:\Users\leowo\.config\TeleAgent\users\v1_public_1903018843537604612\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\gdi32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 35 paths for library KERNEL32.DLL...
+Loading file:///C:/WINDOWS/SysWOW64/kernel32.dll?MD5=4b53ae50aa096d91f25912725f39f706...
+Created exports file: C:\Users\leowo\.config\TeleAgent\users\v1_public_1903018843537604612\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\kernel32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 35 paths for library MAPI32.DLL...
+Loading file:///C:/WINDOWS/SysWOW64/mapi32.dll?MD5=7bfa27af74d7603fc612a8ecaadc9340...
+Created exports file: C:\Users\leowo\.config\TeleAgent\users\v1_public_1903018843537604612\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\mapi32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 35 paths for library MPR.DLL...
+Loading file:///C:/WINDOWS/SysWOW64/mpr.dll?MD5=7cdeb6ba4e18ef16c5a0c5066923cab0...
+Created exports file: C:\Users\leowo\.config\TeleAgent\users\v1_public_1903018843537604612\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\mpr.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 35 paths for library OLE32.DLL...
+Loading file:///C:/WINDOWS/SysWOW64/ole32.dll?MD5=ecae019b31683fe609d60f98153717b5...
+[ole32.dll]: failed to create WEVTResource at 69034740: Failed to resolve data length for WEVTResource
+Created exports file: C:\Users\leowo\.config\TeleAgent\users\v1_public_1903018843537604612\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\ole32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 35 paths for library USER32.DLL...
+Loading file:///C:/WINDOWS/SysWOW64/user32.dll?MD5=33ec4f10670fa1378d5b05fe97ff6889...
+[user32.dll]: failed to create WEVTResource at 69ebea70: Failed to resolve data length for WEVTResource
+Created exports file: C:\Users\leowo\.config\TeleAgent\users\v1_public_1903018843537604612\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\user32.exports
+Library not saved to project.
+------------------------------------------------
+
+Applying cached symbols from OLE32.DLL
+Applying cached symbols from MPR.DLL
+Applying cached symbols from ADVAPI32.DLL
+Applying cached symbols from KERNEL32.DLL
+Applying cached symbols from USER32.DLL
+Applying cached symbols from GDI32.DLL
+Applying cached symbols from MAPI32.DLL
+Linking the External Programs of 'MSFS32.dll' to imported libraries...
+  [OLE32.DLL] -> not found in project
+  [MPR.DLL] -> not found in project
+  [ADVAPI32.DLL] -> not found in project
+  [KERNEL32.DLL] -> not found in project
+  [USER32.DLL] -> not found in project
+  [GDI32.DLL] -> not found in project
+  [MAPI32.DLL] -> not found in project
+  [GAPI32.DLL] -> not found in project
+------------------------------------------------
+
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///C:/ghidra_ws/msfs32-analysis/MSFS32.dll (HeadlessAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___raise_securityfailure' specified in file: C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\data\PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___report_rangecheckfailure' specified in file: C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\data\PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+INFO  Skipping PDB processing: missing PDB information in program metadata (PdbUniversalAnalyzer)  
+INFO  Packed database cache: C:\Users\leowo\.cache\TeleAgent\ghidra\packed-db-cache (PackedDatabaseCache)  
+INFO  Applied data type archive: windows_vs12_32 (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ASCII Strings                              0.404 secs
+    Apply Data Archives                        0.655 secs
+    Call Convention ID                         0.011 secs
+    Call-Fixup Installer                       0.015 secs
+    Create Address Tables                      0.083 secs
+    Create Address Tables - One Time           0.282 secs
+    Create Function                            0.261 secs
+    Data Reference                             0.242 secs
+    Decompiler Parameter ID                    5.187 secs
+    Decompiler Switch Analysis                14.275 secs
+    Demangler Microsoft                        0.049 secs
+    Disassemble                                0.560 secs
+    Disassemble Entry Points                   0.228 secs
+    Disassemble Entry Points - One Time        0.000 secs
+    Embedded Media                             0.009 secs
+    External Entry References                  0.000 secs
+    Function ID                                0.671 secs
+    Function Start Pre Search                  0.014 secs
+    Function Start Search                      0.025 secs
+    Function Start Search After Code           0.035 secs
+    Function Start Search After Data           0.024 secs
+    Function Start Search delayed - One Time   0.010 secs
+    Non-Returning Functions - Discovered       0.118 secs
+    Non-Returning Functions - Known            0.009 secs
+    PDB Universal                              0.002 secs
+    Reference                                  0.358 secs
+    Scalar Operand References                  0.696 secs
+    Shared Return Calls                        0.109 secs
+    Stack                                      2.064 secs
+    Subroutine References                      0.798 secs
+    Subroutine References - One Time           0.006 secs
+    Windows x86 PE Exception Handling          0.012 secs
+    Windows x86 PE RTTI Analyzer               0.008 secs
+    Windows x86 Thread Environment Block (TEB) Analyzer     0.011 secs
+    WindowsResourceReference                  17.976 secs
+    X86 Function Callee Purge                  0.099 secs
+    x86 Constant Reference Analyzer            2.085 secs
+-----------------------------------------------------
+     Total Time   47 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///C:/ghidra_ws/msfs32-analysis/MSFS32.dll (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: crash_site.py  (HeadlessAnalyzer)  
+ERROR  (HeadlessAnalyzer)  
+ERROR REPORT SCRIPT ERROR: crash_site.py : Ghidra was not started with PyGhidra. Python is not available (HeadlessAnalyzer) ghidra.app.script.GhidraScriptLoadException: Ghidra was not started with PyGhidra. Python is not available
+	at ghidra.pyghidra.PyGhidraScriptProvider.getScriptInstance(PyGhidraScriptProvider.java:75)
+	at ghidra.app.util.headless.HeadlessAnalyzer.runScriptsList(HeadlessAnalyzer.java:917)
+	at ghidra.app.util.headless.HeadlessAnalyzer.analyzeProgram(HeadlessAnalyzer.java:1093)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processFileWithImport(HeadlessAnalyzer.java:1591)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processWithLoader(HeadlessAnalyzer.java:1751)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processWithImport(HeadlessAnalyzer.java:1692)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processWithImport(HeadlessAnalyzer.java:1776)
+	at ghidra.app.util.headless.HeadlessAnalyzer.processLocal(HeadlessAnalyzer.java:452)
+	at ghidra.app.util.headless.AnalyzeHeadless.launch(AnalyzeHeadless.java:199)
+	at ghidra.GhidraLauncher.launch(GhidraLauncher.java:81)
+	at ghidra.Ghidra.main(Ghidra.java:54)
+ 
+INFO  ANALYZING changes made by post scripts: file:///C:/ghidra_ws/msfs32-analysis/MSFS32.dll (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///C:/ghidra_ws/msfs32-analysis/MSFS32.dll (HeadlessAnalyzer)  
+INFO  /MSFS32.dll: file created (leowood) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /MSFS32.dll (MSFS32:/MSFS32.dll) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

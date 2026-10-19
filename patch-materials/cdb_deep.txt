@@ -1,0 +1,429 @@
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symcache*https://msdl.microsoft.com/download/symbols
+
+************* Preparing the environment for Debugger Extensions Gallery repositories **************
+   ExtensionRepository : Implicit
+   UseExperimentalFeatureForNugetShare : true
+   AllowNugetExeUpdate : true
+   NonInteractiveNuget : true
+   AllowNugetMSCredentialProviderInstall : true
+   AllowParallelInitializationOfLocalRepositories : true
+
+   -- Configuring repositories
+      ----> Repository : LocalInstalled, Enabled: true
+      ----> Repository : UserExtensions, Enabled: true
+
+>>>>>>>>>>>>> Preparing the environment for Debugger Extensions Gallery repositories completed, duration 0.000 seconds
+
+************* Waiting for Debugger Extensions Gallery to Initialize **************
+
+>>>>>>>>>>>>> Waiting for Debugger Extensions Gallery to Initialize completed, duration 0.016 seconds
+   ----> Repository : UserExtensions, Enabled: true, Packages count: 0
+   ----> Repository : LocalInstalled, Enabled: true, Packages count: 46
+
+Microsoft (R) Windows Debugger Version 10.0.29661.1004 X86
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+
+Loading Dump File [C:\Users\leowo\AppData\Local\CrashDumps\OUTLOOK.EXE.7644.dmp]
+User Mini Dump File with Full Memory : Only application data is available
+
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symcache*https://msdl.microsoft.com/download/symbols
+Symbol search path is: srv*C:\symcache*https://msdl.microsoft.com/download/symbols
+Executable search path is: 
+Windows 10 Version 22631 MP (22 procs) Free x86 compatible
+Product: WinNt, suite: SingleUserTS
+Edition build lab: 22621.1.amd64fre.ni_release.220506-1250
+Debug session time: Mon Oct 19 09:22:10.000 2026 (UTC + 8:00)
+System Uptime: 4 days 17:57:02.603
+Process Uptime: 4 days 16:17:22.000
+................................................................
+................................................................
+..........................................
+Loading unloaded module list
+................................................................
+This dump file has an exception of interest stored in it.
+The stored exception information can be accessed via .ecxr
+(1ddc.f560): Unknown exception - code c0000374 (first/second chance not available)
+For analysis of this file, run !analyze -v
+eax=00000000 ebx=00000000 ecx=0582f358 edx=7727c920 esi=00000000 edi=00000002
+eip=771c73fc esp=0582ebe0 ebp=0582ec20 iopl=0         nv up ei pl nz ac po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00000212
+ntdll!NtWaitForMultipleObjects+0xc:
+771c73fc c21400          ret     14h
+0:008> cdb: Reading initial command '.ecxr; dps 0582f700 0582fc00; dq 7727c920 L40; q'
+eax=0582f328 ebx=00000000 ecx=0582f358 edx=7727c920 esi=00000002 edi=0c7912f8
+eip=7723e62f esp=0582f300 ebp=0582f338 iopl=0         nv up ei pl zr na pe nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00000246
+ntdll!RtlReportFatalFailure+0x16:
+7723e62f eb33            jmp     ntdll!RtlReportFatalFailure+0x4b (7723e664)
+0582f700  00000002
+0582f704  ffffffff
+0582f708  18a1dad2
+0582f70c  0582f738
+0582f710  7601ca88 kernel32!lstrcmpiA+0x1e
+0582f714  00000400
+0582f718  40000001
+0582f71c  037c0818
+0582f720  ffffffff
+0582f724  6f889168 MSFS32!XPProviderInit+0x3c28
+0582f728  ffffffff
+0582f72c  7601ca50 kernel32!lstrcmpiAStub
+0582f730  1cea94a0
+0582f734  7601ca60 kernel32!lstrcmpiAStub+0x10
+0582f738  00000000
+0582f73c  6f84f984 MSFS32!Ordinal10+0x11f24
+0582f740  037c0818
+0582f744  6f889168 MSFS32!XPProviderInit+0x3c28
+0582f748  1cea961c
+0582f74c  00000000
+0582f750  1cea94a0
+0582f754  1cea9540
+0582f758  6f84bf2b MSFS32!Ordinal10+0xe4cb
+0582f75c  6f84bf6d MSFS32!Ordinal10+0xe50d
+0582f760  00000000
+0582f764  15a1b114
+0582f768  0dccfaa8
+0582f76c  1cea94a0
+0582f770  00000000
+0582f774  00000000
+0582f778  0000097c
+0582f77c  00000000
+0582f780  0bf18a00
+0582f784  64897809 MSPST32!MSProviderInit+0x5e1e
+0582f788  00000000
+0582f78c  00000000
+0582f790  00000000
+0582f794  0582f864
+0582f798  0bf18a00
+0582f79c  64897b81 MSPST32!MSProviderInit+0x6196
+0582f7a0  0bf18a00
+0582f7a4  00000000
+0582f7a8  00000000
+0582f7ac  00000000
+0582f7b0  0582f7ec
+0582f7b4  0bf189f8
+0582f7b8  0582f800
+0582f7bc  64897b4a MSPST32!MSProviderInit+0x615f
+0582f7c0  0bf18a00
+0582f7c4  00000000
+0582f7c8  00000000
+0582f7cc  00000000
+0582f7d0  0582f7ec
+0582f7d4  0582f85c
+0582f7d8  64897b2a MSPST32!MSProviderInit+0x613f
+0582f7dc  0bf189f8
+0582f7e0  00000000
+0582f7e4  00000000
+0582f7e8  0582f7ec
+0582f7ec  64897c8b MSPST32!MSProviderInit+0x62a0
+0582f7f0  0bf189f8
+0582f7f4  00000000
+0582f7f8  00000002
+0582f7fc  0582f81c
+0582f800  0582f83c
+0582f804  648984f0 MSPST32!MSProviderInit+0x6b05
+0582f808  771c6e6c ntdll!NtWaitForSingleObject+0xc
+0582f80c  0582f978
+0582f810  0c29f2f4
+0582f814  00000004
+0582f818  0582f850
+0582f81c  64898a68 MSPST32!MSProviderInit+0x707d
+0582f820  03580000
+0582f824  00000100
+0582f828  03580cb0
+0582f82c  0582f85c
+0582f830  648989ed MSPST32!MSProviderInit+0x7002
+0582f834  0582f9c0
+0582f838  7719f1ec ntdll!RtlpAllocateHeap+0x18fc
+0582f83c  7719f61f ntdll!RtlpAllocateHeap+0x1d2f
+0582f840  c8718bca
+0582f844  000000f4
+0582f848  00000000
+0582f84c  00710001
+0582f850  0f46dc0c
+0582f854  00000000
+0582f858  0000006a
+0582f85c  0582f880
+0582f860  60a83dac OUTLPH!DllCanUnloadNow+0x9b0
+0582f864  0582f8c2
+0582f868  0000006e
+0582f86c  0000006e
+0582f870  60a82a10 OUTLPH!HrCreateProtoHandler+0xff0
+0582f874  0582f8ac
+0582f878  0582f93c
+0582f87c  00000000
+0582f880  0582f8c4
+0582f884  674aebb8
+0582f888  0582f8c4
+0582f88c  60a829ec OUTLPH!HrCreateProtoHandler+0xfcc
+0582f890  15aedc80
+0582f894  60a829f6 OUTLPH!HrCreateProtoHandler+0xfd6
+0582f898  15aedc80
+0582f89c  00710001
+0582f8a0  0582f9a8
+0582f8a4  15a5cca0
+0582f8a8  60a82a01 OUTLPH!HrCreateProtoHandler+0xfe1
+0582f8ac  0582f8c6
+0582f8b0  204e4928
+0582f8b4  2d202d2d
+0582f8b8  4f2f2d2d
+0582f8bc  66205455 AcLayers!NS_FaultTolerantHeap::FthFreeTracker+0x1c0895
+0582f8c0  6361206c mshtml!ReadingMode::CExtraction::GetHyperlinkToTextRatio+0xb9
+0582f8c4  03002974
+0582f8c8  6489579f MSPST32!MSProviderInit+0x3db4
+0582f8cc  0000001e
+0582f8d0  ffffde58
+0582f8d4  0bf18a00
+0582f8d8  64897809 MSPST32!MSProviderInit+0x5e1e
+0582f8dc  03580e80
+0582f8e0  00000020
+0582f8e4  00060007
+0582f8e8  1cea9028
+0582f8ec  1cea903c
+0582f8f0  0582f978
+0582f8f4  7719cb93 ntdll!RtlpAllocateHeapInternal+0x443
+0582f8f8  00000027
+0582f8fc  00000020
+0582f900  00000000
+0582f904  00720000
+0582f908  00000000
+0582f90c  0c70d134
+0582f910  0582f998
+0582f914  7719cb93 ntdll!RtlpAllocateHeapInternal+0x443
+0582f918  00000040
+0582f91c  00000020
+0582f920  00000228
+0582f924  00550950
+0582f928  00550000
+0582f92c  ffffffff
+0582f930  00000000
+0582f934  64727f3b MSMAPI32!FInitIME+0x9e
+0582f938  12ebc628
+0582f93c  00000000
+0582f940  00000000
+0582f944  00710001
+0582f948  00000002
+0582f94c  00000220
+0582f950  00550280
+0582f954  00000010
+0582f958  00000044
+0582f95c  00550000
+0582f960  00000218
+0582f964  00000000
+0582f968  00720000
+0582f96c  00565654
+0582f970  00000000
+0582f974  00565650
+0582f978  0582f990
+0582f97c  7719c73e ntdll!RtlAllocateHeap+0x3e
+0582f980  00000000
+0582f984  00000000
+0582f988  74fa5e4c combase!g_CMalloc
+0582f98c  00000218
+0582f990  0582f9a4
+0582f994  74e429e6 combase!CRetailMalloc_Alloc+0x16
+0582f998  6f839378 MSFS32!ABProviderInit+0xf1c8
+0582f99c  1cea94a0
+0582f9a0  6f83a90d MSFS32!ABProviderInit+0x1075d
+0582f9a4  1cea94a0
+0582f9a8  6f84b855 MSFS32!Ordinal10+0xddf5
+0582f9ac  1cea94a0
+0582f9b0  6f88397c MSFS32!MSProviderInit+0xcd6c
+0582f9b4  0582fa3c
+0582f9b8  00000000
+0582f9bc  0582fa00
+0582f9c0  00000000
+0582f9c4  00000000
+0582f9c8  0f46dc08
+0582f9cc  0582fcd8
+0582f9d0  00000003
+0582f9d4  0c70d4d0
+0582f9d8  00000000
+0582f9dc  00000000
+0582f9e0  00000000
+0582f9e4  00000000
+0582f9e8  00000000
+0582f9ec  00000000
+0582f9f0  00000000
+0582f9f4  00000000
+0582f9f8  18736872
+0582f9fc  00000000
+0582fa00  0000004e
+0582fa04  00000000
+0582fa08  00000000
+0582fa0c  0c7a5f30
+0582fa10  00000000
+0582fa14  00000000
+0582fa18  00000000
+0582fa1c  00000000
+0582fa20  00000000
+0582fa24  00000000
+0582fa28  00000000
+0582fa2c  00000000
+0582fa30  00000000
+0582fa34  00000000
+0582fa38  002d0000
+0582fa3c  6f822788 MSFS32+0x2788
+0582fa40  8d34673a
+0582fa44  00000000
+0582fa48  00000000
+0582fa4c  00000000
+0582fa50  00000000
+0582fa54  00000000
+0582fa58  00000000
+0582fa5c  00000000
+0582fa60  00000000
+0582fa64  00000000
+0582fa68  00000000
+0582fa6c  00000000
+0582fa70  00000000
+0582fa74  00000000
+0582fa78  00000000
+0582fa7c  00000000
+0582fa80  00000000
+0582fa84  00000000
+0582fa88  00000000
+0582fa8c  00000000
+0582fa90  00000000
+0582fa94  00000000
+0582fa98  00000000
+0582fa9c  00000000
+0582faa0  00000000
+0582faa4  00000000
+0582faa8  00000000
+0582faac  00000000
+0582fab0  00000000
+0582fab4  00000000
+0582fab8  00000000
+0582fabc  00000064
+0582fac0  00000002
+0582fac4  0c712010
+0582fac8  00000000
+0582facc  00000001
+0582fad0  00000000
+0582fad4  037c06a8
+0582fad8  037c084f
+0582fadc  037c0850
+0582fae0  0c712000
+0582fae4  037c0000
+0582fae8  6484aa40 MSMAPI32!REFTRACK_AddNoRef+0x90c7
+0582faec  0582fb0c
+0582faf0  7719f7e6 ntdll!RtlFreeHeap+0x46
+0582faf4  00000000
+0582faf8  00000000
+0582fafc  00000000
+0582fb00  00000000
+0582fb04  00000000
+0582fb08  64849d18 MSMAPI32!REFTRACK_AddNoRef+0x839f
+0582fb0c  0582fb38
+0582fb10  64708009 MSMAPI32!MAPIFreeBuffer+0x62
+0582fb14  037c0000
+0582fb18  00000000
+0582fb1c  037c0850
+0582fb20  0582fbfc
+0582fb24  00000000
+0582fb28  00000003
+0582fb2c  0582fc08
+0582fb30  00000001
+0582fb34  037c0000
+0582fb38  0582fb94
+0582fb3c  64712ac1 MSMAPI32!UlFromSzHex+0xe32
+0582fb40  00000000
+0582fb44  6477e16a MSMAPI32!ConvertHtmlRTFStream+0x1df9
+0582fb48  1cfb3c50
+0582fb4c  037c0858
+0582fb50  0582fc28
+0582fb54  15a1b114
+0582fb58  5c534653
+0582fb5c  3fde0003
+0582fb60  0c1e001e
+0582fb64  007d001e
+0582fb68  6630001e
+0582fb6c  6631001e
+0582fb70  00000000
+0582fb74  00000008
+0582fb78  00000000
+0582fb7c  00000000
+0582fb80  00000004
+0582fb84  1cfb3c50
+0582fb88  00000000
+0582fb8c  00000000
+0582fb90  00000000
+0582fb94  0582fbbc
+0582fb98  6477d000 MSMAPI32!ConvertHtmlRTFStream+0xc8f
+0582fb9c  00000005
+0582fba0  0582fc08
+0582fba4  00000000
+0582fba8  0582fbfc
+0582fbac  0582fc28
+0582fbb0  00000000
+0582fbb4  0f46dc08
+0582fbb8  674aebb8
+0582fbbc  0582fcd8
+0582fbc0  60a8b72d OUTLPH!DllCanUnloadNow+0x8331
+0582fbc4  0dccfaa8
+0582fbc8  00000000
+0582fbcc  15a1b114
+0582fbd0  0f46dc20
+0582fbd4  0582fc04
+0582fbd8  00000000
+0582fbdc  0f46dc08
+0582fbe0  00000000
+0582fbe4  00510001
+0582fbe8  00000000
+0582fbec  6f826a1c MSFS32+0x6a1c
+0582fbf0  00000001
+0582fbf4  00000001
+0582fbf8  00000003
+0582fbfc  00000003
+0582fc00  00000000
+7727c920  000003d0`00000002 037c0000`00000008
+7727c930  00000000`0c7912f8 00000000`00000000
+7727c940  00000000`00000000 00000000`00000000
+7727c950  771e0dd1`7724e192 64708009`7719f7e6
+7727c960  00000000`6f84e4ed 00000000`00000000
+7727c970  00000000`00000000 00000000`00000000
+7727c980  00000000`00000000 00000000`00000000
+7727c990  00000000`00000000 00000000`00000000
+7727c9a0  00000000`00000000 00000000`00000000
+7727c9b0  00000000`00000000 00000000`00000000
+7727c9c0  00000000`00000000 00000000`00000000
+7727c9d0  00000000`00000002 00000000`00000000
+7727c9e0  00000000`00000000 00000000`00000000
+7727c9f0  00000000`00000000 00000000`00000000
+7727ca00  00000000`00000000 00000000`00000000
+7727ca10  00000000`00000000 00000000`00000000
+7727ca20  00000000`00000000 00000000`00000000
+7727ca30  00000000`00000000 00000000`00000000
+7727ca40  00000000`00000000 00000000`00000000
+7727ca50  00000000`00000000 00000000`00000000
+7727ca60  00000000`00000000 00000000`00000000
+7727ca70  00000000`00000000 00000000`00000000
+7727ca80  00000000`00000000 00000000`00000000
+7727ca90  00000000`00000000 00000000`00000000
+7727caa0  00000000`00000000 00000000`00000000
+7727cab0  00000000`00000000 00000000`00000000
+7727cac0  00000000`00000000 00000000`00000000
+7727cad0  00000000`00000000 00000000`00000000
+7727cae0  00000000`00000000 00000000`00000000
+7727caf0  00000000`00000000 00000000`00000000
+7727cb00  00000000`00000000 00000000`00000000
+7727cb10  00000000`00000000 00000000`00000000
+quit:
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\atlmfc.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\concurrency.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\cpp_rest.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\ObjectiveC.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\stl.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\Windows.Data.Json.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\Windows.Devices.Geolocation.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\Windows.Devices.Sensors.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\Windows.Media.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\windows.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\winrt.natvis'

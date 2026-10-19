@@ -1,0 +1,97 @@
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symcache*https://msdl.microsoft.com/download/symbols
+
+************* Preparing the environment for Debugger Extensions Gallery repositories **************
+   ExtensionRepository : Implicit
+   UseExperimentalFeatureForNugetShare : true
+   AllowNugetExeUpdate : true
+   NonInteractiveNuget : true
+   AllowNugetMSCredentialProviderInstall : true
+   AllowParallelInitializationOfLocalRepositories : true
+
+   -- Configuring repositories
+      ----> Repository : LocalInstalled, Enabled: true
+      ----> Repository : UserExtensions, Enabled: true
+
+>>>>>>>>>>>>> Preparing the environment for Debugger Extensions Gallery repositories completed, duration 0.000 seconds
+
+************* Waiting for Debugger Extensions Gallery to Initialize **************
+
+>>>>>>>>>>>>> Waiting for Debugger Extensions Gallery to Initialize completed, duration 0.016 seconds
+   ----> Repository : UserExtensions, Enabled: true, Packages count: 0
+   ----> Repository : LocalInstalled, Enabled: true, Packages count: 46
+
+Microsoft (R) Windows Debugger Version 10.0.29661.1004 X86
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+
+Loading Dump File [C:\Users\leowo\AppData\Local\CrashDumps\OUTLOOK.EXE.7644.dmp]
+User Mini Dump File with Full Memory : Only application data is available
+
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symcache*https://msdl.microsoft.com/download/symbols
+Symbol search path is: srv*C:\symcache*https://msdl.microsoft.com/download/symbols
+Executable search path is: 
+Windows 10 Version 22631 MP (22 procs) Free x86 compatible
+Product: WinNt, suite: SingleUserTS
+Edition build lab: 22621.1.amd64fre.ni_release.220506-1250
+Debug session time: Mon Oct 19 09:22:10.000 2026 (UTC + 8:00)
+System Uptime: 4 days 17:57:02.603
+Process Uptime: 4 days 16:17:22.000
+................................................................
+................................................................
+..........................................
+Loading unloaded module list
+................................................................
+This dump file has an exception of interest stored in it.
+The stored exception information can be accessed via .ecxr
+(1ddc.f560): Unknown exception - code c0000374 (first/second chance not available)
+For analysis of this file, run !analyze -v
+eax=00000000 ebx=00000000 ecx=0582f358 edx=7727c920 esi=00000000 edi=00000002
+eip=771c73fc esp=0582ebe0 ebp=0582ec20 iopl=0         nv up ei pl nz ac po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00000212
+ntdll!NtWaitForMultipleObjects+0xc:
+771c73fc c21400          ret     14h
+0:008> cdb: Reading initial command '.symfix+ C:\symcache; .reload; .ecxr; kb 30; q'
+WARNING: Whitespace at start of path element
+WARNING: Whitespace at start of path element
+WARNING: Whitespace at start of path element
+WARNING: Whitespace at start of path element
+................................................................
+................................................................
+..........................................
+Loading unloaded module list
+................................................................
+eax=0582f328 ebx=00000000 ecx=0582f358 edx=7727c920 esi=00000002 edi=0c7912f8
+eip=7723e62f esp=0582f300 ebp=0582f338 iopl=0         nv up ei pl zr na pe nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00000246
+ntdll!RtlReportFatalFailure+0x16:
+7723e62f eb33            jmp     ntdll!RtlReportFatalFailure+0x4b (7723e664)
+ChildEBP RetAddr      Args to Child              
+0582f338 7723e601     c87181c6 0c7912f8 00000002 ntdll!RtlReportFatalFailure+0x16
+0582f3cc 77247863     00000001 7727c950 7724569e ntdll!RtlReportCriticalFailure+0x84
+0582f3d8 7724569e     c8718602 0c7912f8 0c7912f8 ntdll!RtlpReportHeapFailure+0x2f
+0582f408 7724e192     00000008 037c0000 0c7912f8 ntdll!RtlpHpHeapHandleError+0x8e
+0582f420 771e0dd1     0c7912f8 00000000 00000000 ntdll!RtlpLogHeapFailure+0x43
+0582f484 7719f7e6     00000000 00000000 00000000 ntdll!RtlpFreeHeapInternal+0xfa
+0582f4a4 64708009     037c0000 00000000 0c791300 ntdll!RtlFreeHeap+0x46
+WARNING: Stack unwind information not available. Following frames may be wrong.
+0582f4d0 6f84e4ed     0c791308 00000000 1cea94a0 MSMAPI32!MAPIFreeBuffer+0x62
+0582f4d4 0c791308     00000000 1cea94a0 1cea9540 MSFS32!Ordinal10+0x10a8d
+0582f4d8 00000000     1cea94a0 1cea9540 00000001 0xc791308
+quit:
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\atlmfc.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\concurrency.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\cpp_rest.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\ObjectiveC.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\stl.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\Windows.Data.Json.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\Windows.Devices.Geolocation.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\Windows.Devices.Sensors.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\Windows.Media.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\windows.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\winrt.natvis'

@@ -1,0 +1,84 @@
+
+************* Preparing the environment for Debugger Extensions Gallery repositories **************
+   ExtensionRepository : Implicit
+   UseExperimentalFeatureForNugetShare : true
+   AllowNugetExeUpdate : true
+   NonInteractiveNuget : true
+   AllowNugetMSCredentialProviderInstall : true
+   AllowParallelInitializationOfLocalRepositories : true
+
+   -- Configuring repositories
+      ----> Repository : LocalInstalled, Enabled: true
+      ----> Repository : UserExtensions, Enabled: true
+
+>>>>>>>>>>>>> Preparing the environment for Debugger Extensions Gallery repositories completed, duration 0.000 seconds
+
+************* Waiting for Debugger Extensions Gallery to Initialize **************
+
+>>>>>>>>>>>>> Waiting for Debugger Extensions Gallery to Initialize completed, duration 0.031 seconds
+   ----> Repository : UserExtensions, Enabled: true, Packages count: 0
+   ----> Repository : LocalInstalled, Enabled: true, Packages count: 46
+
+Microsoft (R) Windows Debugger Version 10.0.29661.1004 X86
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+
+Loading Dump File [C:\ghidra_ws\msfs32-analysis\MSFS32.dll]
+Symbol search path is: srv*
+Executable search path is: 
+ModLoad: 6f820000 6f89f000   C:\ghidra_ws\msfs32-analysis\MSFS32.dll
+eax=00000000 ebx=00000000 ecx=00000000 edx=00000000 esi=00000000 edi=00000000
+eip=6f8242a0 esp=00000000 ebp=00000000 iopl=0         nv up di pl nz na po nc
+cs=0000  ss=0000  ds=0000  es=0000  fs=0000  gs=0000             efl=00000000
+MSFS32+0x42a0:
+6f8242a0 8b442408        mov     eax,dword ptr [esp+8]     ss:00000008=????????
+0:000> cdb: Reading initial command 'u 6f84e4a0 6f84e510; q'
+MSFS32!Ordinal10+0x10a40:
+6f84e4a0 9c              pushfd
+6f84e4a1 0000            add     byte ptr [eax],al
+6f84e4a3 008d4c247451    add     byte ptr [ebp+5174244Ch],cl
+6f84e4a9 6a04            push    4
+6f84e4ab 8b10            mov     edx,dword ptr [eax]
+6f84e4ad 50              push    eax
+6f84e4ae ff524c          call    dword ptr [edx+4Ch]
+6f84e4b1 8b5308          mov     edx,dword ptr [ebx+8]
+6f84e4b4 8b8e10020000    mov     ecx,dword ptr [esi+210h]
+6f84e4ba 8bae14020000    mov     ebp,dword ptr [esi+214h]
+6f84e4c0 8944242c        mov     dword ptr [esp+2Ch],eax
+6f84e4c4 8b5208          mov     edx,dword ptr [edx+8]
+6f84e4c7 89548d00        mov     dword ptr [ebp+ecx*4],edx
+6f84e4cb 8b9610020000    mov     edx,dword ptr [esi+210h]
+6f84e4d1 42              inc     edx
+6f84e4d2 85c0            test    eax,eax
+6f84e4d4 899610020000    mov     dword ptr [esi+210h],edx
+6f84e4da 7c74            jl      MSFS32!Ordinal10+0x10af0 (6f84e550)
+6f84e4dc 837c241c03      cmp     dword ptr [esp+1Ch],3
+6f84e4e1 740a            je      MSFS32!Ordinal10+0x10a8d (6f84e4ed)
+6f84e4e3 8b4b08          mov     ecx,dword ptr [ebx+8]
+6f84e4e6 8b4608          mov     eax,dword ptr [esi+8]
+6f84e4e9 51              push    ecx
+6f84e4ea ff5004          call    dword ptr [eax+4]
+6f84e4ed 8b442420        mov     eax,dword ptr [esp+20h]
+6f84e4f1 8b5608          mov     edx,dword ptr [esi+8]
+6f84e4f4 50              push    eax
+6f84e4f5 ff5204          call    dword ptr [edx+4]
+6f84e4f8 8b442450        mov     eax,dword ptr [esp+50h]
+6f84e4fc 33db            xor     ebx,ebx
+6f84e4fe 85c0            test    eax,eax
+6f84e500 895c2420        mov     dword ptr [esp+20h],ebx
+6f84e504 0f841ef9ffff    je      MSFS32!Ordinal10+0x103c8 (6f84de28)
+6f84e50a 8b4e08          mov     ecx,dword ptr [esi+8]
+6f84e50d 50              push    eax
+6f84e50e ff5104          call    dword ptr [ecx+4]
+quit:
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\atlmfc.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\concurrency.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\cpp_rest.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\ObjectiveC.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\stl.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\Windows.Data.Json.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\Windows.Devices.Geolocation.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\Windows.Devices.Sensors.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\Windows.Media.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\windows.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\winrt.natvis'

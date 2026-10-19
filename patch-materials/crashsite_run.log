@@ -1,0 +1,1648 @@
+INFO  Using log config file: jar:file:/C:/ghidra_ws/ghidra-dl/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: C:\Users\leowo\.config\TeleAgent\users\v1_public_1903018843537604612\ghidra\ghidra_12.1.4_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: C:\Users\leowo\.config\TeleAgent\users\v1_public_1903018843537604612\ghidra\ghidra_12.1.4_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (686 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (2321 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\PDB\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\ghidra_ws\msfs32-analysis\scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\ghidra_ws\ghidra-dl\ghidra_12.1.4_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: C:\ghidra_ws\msfs32-analysis\proj\MSFS32 (HeadlessAnalyzer)  
+INFO  Opening project: C:\ghidra_ws\msfs32-analysis\proj\MSFS32 (HeadlessProject)  
+INFO  REPORT: Processing project file: /MSFS32.dll (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: CrashSite.java  (HeadlessAnalyzer)  
+INFO  SCRIPT: C:\ghidra_ws\msfs32-analysis\scripts\CrashSite.java (HeadlessAnalyzer)  
+INFO  CrashSite.java> IMAGE_BASE=0x6F820000 (GhidraScript)  
+INFO  CrashSite.java> CRASH_SITE_RVA=0x2E4ED ADDR=6f84e4ed (GhidraScript)  
+INFO  CrashSite.java> CRASH_FUNC=FUN_6f84dc40 @ 6f84dc40 body=[[6f84dc40, 6f84e5c4]] (GhidraScript)  
+INFO  CrashSite.java> DIS SUB ESP,0x270 (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EBX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EBP (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ESI (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ESI,ECX (GhidraScript)  
+INFO  CrashSite.java> DIS XOR EBX,EBX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDI (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x24],EBX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x54],EBX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x20],EBX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x28],EBX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x10],EBX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x58],EBX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ECX + 0x5c] (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EAX,0x14955e5b (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x2c],EBX (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84dc9d (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ECX + 0x8c] (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EAX,EBX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ECX + 0x88] (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84dc8c (GhidraScript)  
+INFO  CrashSite.java> DIS SHR EAX,0x8 (GhidraScript)  
+INFO  CrashSite.java> DIS JMP 0x6f84dc8f (GhidraScript)  
+INFO  CrashSite.java> DIS SHR EAX,0x9 (GhidraScript)  
+INFO  CrashSite.java> DIS AND EAX,0x1 (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EAX,EBX (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84dc9d (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,0x1 (GhidraScript)  
+INFO  CrashSite.java> DIS JMP 0x6f84dc9f (GhidraScript)  
+INFO  CrashSite.java> DIS XOR EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS NEG EAX (GhidraScript)  
+INFO  CrashSite.java> DIS SBB EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS AND EAX,0xfffff000 (GhidraScript)  
+INFO  CrashSite.java> DIS ADD EAX,0x1000 (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS LEA EAX,[ESP + 0x60] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f827160 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EDI,EBX (GhidraScript)  
+INFO  CrashSite.java> DIS JL 0x6f84e5b8 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESP + 0x5c] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x4] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ECX + 0x18] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESI + 0x1f8],EDX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f8461d0 (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EAX,EBX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESI + 0xac],EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84dcec (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,0x8007000e (GhidraScript)  
+INFO  CrashSite.java> DIS JMP 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESI + 0x4] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f8461d0 (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EAX,EBX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESI + 0xa4],EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84dd09 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,0x8007000e (GhidraScript)  
+INFO  CrashSite.java> DIS JMP 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESI + 0x4] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f8461d0 (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EAX,EBX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESI + 0x18c],EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84dd26 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,0x8007000e (GhidraScript)  
+INFO  CrashSite.java> DIS JMP 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x4] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f8461d0 (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EAX,EBX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESI + 0x190],EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84dd43 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,0x8007000e (GhidraScript)  
+INFO  CrashSite.java> DIS JMP 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x9c] (GhidraScript)  
+INFO  CrashSite.java> DIS LEA EDX,[ESP + 0x24] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EBX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [EAX] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [ECX + 0x48] (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EAX,EBX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x2c],EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JL 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [EAX + 0x4] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [EAX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x24] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH 0x6f8232d0 (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f88680e (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x2c],EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JL 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x24] (GhidraScript)  
+INFO  CrashSite.java> DIS LEA EDX,[ESP + 0x54] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH 0x0 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [EAX] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [ECX + 0x24] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x2c],EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JL 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x1bc] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84ddd1 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESP + 0x54] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS LEA ECX,[ESI + 0x214] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS LEA ECX,[EDX*0x4 + 0x0] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [EAX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EDI,EDI (GhidraScript)  
+INFO  CrashSite.java> DIS JL 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x24] (GhidraScript)  
+INFO  CrashSite.java> DIS LEA ECX,[ESP + 0x58] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH 0x1 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [EAX] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [EDX + 0x20] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x2c],EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JL 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESP + 0x58] (GhidraScript)  
+INFO  CrashSite.java> DIS LEA ECX,[ESI + 0x20c] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [EAX + 0x10] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [EAX + 0x4] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH 0x30000003 (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH 0x2 (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [EAX + 0xc] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [EAX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH 0x6f822ef0 (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f8867e4 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EDI,EDI (GhidraScript)  
+INFO  CrashSite.java> DIS JL 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS XOR EBP,EBP (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,ESI (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x18],EBP (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x1c],EBP (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x38],EBP (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x3c],EBP (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x14],EBP (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x50],EBP (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x44],EBP (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x40],EBP (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x34],EBP (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x30],0x1 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x68],EBP (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x48],EBP (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x4c],EBP (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f84ba60 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EDI,EBP (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x24] (GhidraScript)  
+INFO  CrashSite.java> DIS LEA EDX,[ESP + 0x20] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x2c],EBP (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x14],EBP (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [EAX] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EBP (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH 0x1 (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [ECX + 0x4c] (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EAX,EBP (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x2c],EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JL 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x20] (GhidraScript)  
+INFO  CrashSite.java> DIS CMP dword ptr [EAX],EBP (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e521 (GhidraScript)  
+INFO  CrashSite.java> DIS LEA EBX,[EAX + 0x4] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x64],EBX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [EBX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS LEA ECX,[EAX + 0x50] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [EAX + 0x50] (GhidraScript)  
+INFO  CrashSite.java> DIS AND EAX,0xffff (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EAX,0x1 (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84ded1 (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EAX,0xa (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84ded1 (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EBP (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f846190 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x38],EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JMP 0x6f84ded9 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x10],0x3 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [EBX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS LEA ECX,[EAX + 0x40] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [EAX + 0x40] (GhidraScript)  
+INFO  CrashSite.java> DIS AND EAX,0xffff (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EAX,0x1 (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84defc (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EAX,0xa (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84defc (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EBP (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f846190 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x14],EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [EBX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS LEA ECX,[EAX + 0x30] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [EAX + 0x30] (GhidraScript)  
+INFO  CrashSite.java> DIS AND EAX,0xffff (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EAX,0x1 (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84df34 (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EAX,0xa (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84df34 (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EBP (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f846190 (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EBP (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x20],EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f8497b0 (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84df2e (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x18],EBP (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EBP,dword ptr [ESP + 0x18] (GhidraScript)  
+INFO  CrashSite.java> DIS JMP 0x6f84df38 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EBP,dword ptr [ESP + 0x1c] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x38] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x3c],EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x14] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84df50 (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f83df00 (GhidraScript)  
+INFO  CrashSite.java> DIS JMP 0x6f84df54 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x68] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [EBX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS CMP word ptr [ECX + 0x28],0x0 (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84dfd1 (GhidraScript)  
+INFO  CrashSite.java> DIS CMP AX,0x21 (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84df6a (GhidraScript)  
+INFO  CrashSite.java> DIS CMP AX,0x15 (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84dfd1 (GhidraScript)  
+INFO  CrashSite.java> DIS LEA EDX,[ESP + 0x84] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH 0x0 (GhidraScript)  
+INFO  CrashSite.java> DIS LEA ECX,[ESP + 0x54] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESP + 0x20] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x48] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f840290 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EDI,EDI (GhidraScript)  
+INFO  CrashSite.java> DIS JGE 0x6f84df9d (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x30],0x0 (GhidraScript)  
+INFO  CrashSite.java> DIS JMP 0x6f84dfd1 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESP + 0x50] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS LEA ECX,[ESP + 0x14] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x18],EDX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH 0x4 (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [EAX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EDI,EDI (GhidraScript)  
+INFO  CrashSite.java> DIS JL 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESP + 0x14] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,[0x6f823230] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [EDX],EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESI + 0x1d8],0x1 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [EBX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ECX + 0x60] (GhidraScript)  
+INFO  CrashSite.java> DIS AND EAX,0xffff (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EAX,0x1 (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e053 (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EAX,0xa (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e053 (GhidraScript)  
+INFO  CrashSite.java> DIS CMP word ptr [ECX + 0x28],0x0 (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84dff7 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x1bc] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e040 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ECX + 0x68] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ECX + 0x6c] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f828f70 (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84e040 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [EBX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH 0x0 (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EBP (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [EAX + 0x6c] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [EAX + 0x68] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x50],ECX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESP + 0x40] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x54],EDX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESP + 0x1c] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH 0x6 (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f852550 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EDI,EDI (GhidraScript)  
+INFO  CrashSite.java> DIS JGE 0x6f84e040 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x30],0x0 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [EBX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [EAX + 0x6c] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [EAX + 0x68] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x44],ECX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x40],EDX (GhidraScript)  
+INFO  CrashSite.java> DIS JMP 0x6f84e05b (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x10],0x3 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [EBX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [EAX + 0x80] (GhidraScript)  
+INFO  CrashSite.java> DIS AND EAX,0xffff (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EAX,0x1 (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e07d (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EAX,0xa (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e07d (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESI + 0x1d8],0x1 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [EBX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x1bc] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ECX + 0x18] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x1c],ECX (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e09f (GhidraScript)  
+INFO  CrashSite.java> DIS AND ECX,0x7fffffff (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x1c],ECX (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84e0a4 (GhidraScript)  
+INFO  CrashSite.java> DIS CMP ECX,0x3 (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e0c7 (GhidraScript)  
+INFO  CrashSite.java> DIS CMP ECX,0x10000000 (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e0cf (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x20c] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EBX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [EAX] (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [EDX + 0x10] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EDI,EDI (GhidraScript)  
+INFO  CrashSite.java> DIS JL 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESP + 0x1c] (GhidraScript)  
+INFO  CrashSite.java> DIS CMP ECX,0x10000000 (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84e0d8 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,0x3 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x1c],ECX (GhidraScript)  
+INFO  CrashSite.java> DIS CMP ECX,0x3 (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84e0e7 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESI + 0x1d8],0x1 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x1bc] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e102 (GhidraScript)  
+INFO  CrashSite.java> DIS TEST byte ptr [ESI + 0x1c4],0x8 (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e102 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x10],0x3 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESP + 0x30] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EDX,EDX (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e200 (GhidraScript)  
+INFO  CrashSite.java> DIS CMP word ptr [ESP + 0x10],0x0 (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84e200 (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84e127 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [EBX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS CMP word ptr [EDX + 0x28],AX (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84e177 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESI + 0x200] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST ECX,ECX (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e139 (GhidraScript)  
+INFO  CrashSite.java> DIS OR dword ptr [ESP + 0x34],0x1000000 (GhidraScript)  
+INFO  CrashSite.java> DIS LEA ECX,[ESP + 0x60] (GhidraScript)  
+INFO  CrashSite.java> DIS LEA EDX,[ESP + 0x18] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS LEA EAX,[ESP + 0x1c] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESP + 0x4c] (GhidraScript)  
+INFO  CrashSite.java> DIS LEA ECX,[ESP + 0x48] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x54] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS LEA ECX,[ESP + 0x28] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS LEA EDX,[ESP + 0x50] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,ESI (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f852360 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EDI,EDI (GhidraScript)  
+INFO  CrashSite.java> DIS JL 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESP + 0x1c] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST dword ptr [ESP + 0x34],0x80000000 (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e18c (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [EBX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV word ptr [EAX + 0x28],0x1 (GhidraScript)  
+INFO  CrashSite.java> DIS JMP 0x6f84e194 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x30],0x0 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x30] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e208 (GhidraScript)  
+INFO  CrashSite.java> DIS CMP ECX,0x3 (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84e200 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x1d4] (GhidraScript)  
+INFO  CrashSite.java> DIS LEA EBP,[ESI + 0x1d4] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84e1da (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x54] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EBP (GhidraScript)  
+INFO  CrashSite.java> DIS LEA EDX,[EAX + EAX*0x2] (GhidraScript)  
+INFO  CrashSite.java> DIS LEA EAX,[EDX*0x4 + 0x4] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [ECX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EDI,EDI (GhidraScript)  
+INFO  CrashSite.java> DIS JL 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [EBP] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ECX],0x0 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [EBP] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EBX,dword ptr [EBX + 0x4] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ECX] (GhidraScript)  
+INFO  CrashSite.java> DIS LEA EDX,[EAX + EAX*0x2] (GhidraScript)  
+INFO  CrashSite.java> DIS INC EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ECX + EDX*0x4 + 0x8],EBX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EBX,dword ptr [ESP + 0x64] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [EBP] (GhidraScript)  
+INFO  CrashSite.java> DIS LEA EAX,[EAX + EAX*0x2] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [EBX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ECX + EAX*0x4],EDX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EBP,dword ptr [EBP] (GhidraScript)  
+INFO  CrashSite.java> DIS INC dword ptr [EBP] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x30] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84e21f (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EBX,EBX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESI + 0x1d8],0x1 (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e4ed (GhidraScript)  
+INFO  CrashSite.java> DIS JMP 0x6f84e4e3 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0xe4] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e233 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x10],0xe (GhidraScript)  
+INFO  CrashSite.java> DIS JMP 0x6f84e258 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x1c8] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e247 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x10],0x8 (GhidraScript)  
+INFO  CrashSite.java> DIS JMP 0x6f84e258 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST byte ptr [ECX + 0x3c],0x20 (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84e258 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x10],0xc (GhidraScript)  
+INFO  CrashSite.java> DIS CMP word ptr [ESP + 0x10],0x0 (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84e3c4 (GhidraScript)  
+INFO  CrashSite.java> DIS TEST dword ptr [ESP + 0x34],0x20000 (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e301 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EBP,dword ptr [EAX + 0x84] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,EBP (GhidraScript)  
+INFO  CrashSite.java> DIS AND EDX,0xefffffff (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [EAX + 0x84],EDX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x1c] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [EBX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x6c],EAX (GhidraScript)  
+INFO  CrashSite.java> DIS LEA EAX,[ESP + 0x6c] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ECX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESP + 0x18] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x70],EDX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESP + 0x3c] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x44] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESP + 0x4c] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,ESI (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f83fbb0 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EDI,0x1 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [EAX + 0x84],EBP (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84e2e9 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [EBX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [ECX + 0x4] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESP + 0x20] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [EAX + 0x4] (GhidraScript)  
+INFO  CrashSite.java> DIS JMP 0x6f84e4f8 (GhidraScript)  
+INFO  CrashSite.java> DIS CMP EDI,0x2 (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84e2f4 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x10],EDI (GhidraScript)  
+INFO  CrashSite.java> DIS XOR EDI,EDI (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EDI,EDI (GhidraScript)  
+INFO  CrashSite.java> DIS JL 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS JMP 0x6f84e3c4 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,dword ptr [ESP + 0x48] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EBP,dword ptr [ESP + 0x4c] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EDI,EDI (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84e315 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,dword ptr [ESP + 0x44] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EBP,dword ptr [ESP + 0x40] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESP + 0x18] (GhidraScript)  
+INFO  CrashSite.java> DIS LEA EAX,[ESP + 0x88] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [0x6f8211d8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESP + 0x14] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH 0x6f823230 (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [0x6f8211dc] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84e34f (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS LEA EDX,[ESP + 0x88] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EBP (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDI (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f852980 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESP + 0x1c] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x3c] (GhidraScript)  
+INFO  CrashSite.java> DIS LEA ECX,[ESP + 0x28] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH 0x0 (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH 0x81 (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESP + 0x24] (GhidraScript)  
+INFO  CrashSite.java> DIS LEA ECX,[ESP + 0x98] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x74] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [EBX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ECX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x30] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESI + 0x1bc] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f84e5d0 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EDI,EDI (GhidraScript)  
+INFO  CrashSite.java> DIS JL 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS TEST dword ptr [ESP + 0x34],0x40000 (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e3ae (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x28] (GhidraScript)  
+INFO  CrashSite.java> DIS OR dword ptr [EAX],0x1 (GhidraScript)  
+INFO  CrashSite.java> DIS LEA EAX,[ESP + 0x28] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,ESI (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f851a10 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EDI,EDI (GhidraScript)  
+INFO  CrashSite.java> DIS JL 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESP + 0x10] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST CX,CX (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e448 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [EBX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS LEA EDX,[ESP + 0x28] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH 0x0 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [EAX + 0x18] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH 0x81 (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESP + 0x48] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [EAX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESP + 0x2c] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESP + 0x2c] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH 0x0 (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESI + 0x1bc] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f84e5d0 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EDI,EDI (GhidraScript)  
+INFO  CrashSite.java> DIS JL 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x1bc] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e428 (GhidraScript)  
+INFO  CrashSite.java> DIS LEA EAX,[ESP + 0x28] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,ESI (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f851a10 (GhidraScript)  
+INFO  CrashSite.java> DIS JMP 0x6f84e434 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESP + 0x28] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,ESI (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f851f00 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EDI,EDI (GhidraScript)  
+INFO  CrashSite.java> DIS JL 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESI + 0x1d8],0x1 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x1bc] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84e4dc (GhidraScript)  
+INFO  CrashSite.java> DIS CMP word ptr [ESP + 0x10],0x0 (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84e468 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x200] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84e4dc (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESP + 0x48] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [EBX + 0x4] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [EBX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x74],0x1 (GhidraScript)  
+INFO  CrashSite.java> DIS TEST ECX,ECX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x78],0x0 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x7c],EDX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x80],EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e49e (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [EAX + 0x6c],ECX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [EBX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESP + 0x4c] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [EAX + 0x68],ECX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x9c] (GhidraScript)  
+INFO  CrashSite.java> DIS LEA ECX,[ESP + 0x74] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH 0x4 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [EAX] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [EDX + 0x4c] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [EBX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESI + 0x210] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EBP,dword ptr [ESI + 0x214] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x2c],EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [EDX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [EBP + ECX*0x4],EDX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESI + 0x210] (GhidraScript)  
+INFO  CrashSite.java> DIS INC EDX (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESI + 0x210],EDX (GhidraScript)  
+INFO  CrashSite.java> DIS JL 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS CMP dword ptr [ESP + 0x1c],0x3 (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e4ed (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [EBX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [EAX + 0x4] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x20] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [EDX + 0x4] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x50] (GhidraScript)  
+INFO  CrashSite.java> DIS XOR EBX,EBX (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x20],EBX (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84de28 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [ECX + 0x4] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x14] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [EDX + 0x4] (GhidraScript)  
+INFO  CrashSite.java> DIS JMP 0x6f84de28 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x24] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [EAX] (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [ECX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESI + 0xac] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESP + 0x24],EBP (GhidraScript)  
+INFO  CrashSite.java> DIS CMP dword ptr [EDX + 0x8],EBP (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,ESI (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f851f60 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EDI,EDI (GhidraScript)  
+INFO  CrashSite.java> DIS JL 0x6f84e550 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,ESI (GhidraScript)  
+INFO  CrashSite.java> DIS CALL 0x6f851fa0 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x2c] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e55a (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDI,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EBX,EBX (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e56c (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EBX,dword ptr [EBX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EBX,EBX (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e56c (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EBX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [EAX + 0x4] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [ESP + 0x20] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EDX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [ECX + 0x4] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESP + 0x58] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH ECX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [EAX + 0x4] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESP + 0x24] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e590 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EDX,dword ptr [EAX] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [EDX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,dword ptr [ESI + 0x20c] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EAX,EAX (GhidraScript)  
+INFO  CrashSite.java> DIS JZ 0x6f84e5b8 (GhidraScript)  
+INFO  CrashSite.java> DIS TEST EDI,EDI (GhidraScript)  
+INFO  CrashSite.java> DIS JL 0x6f84e5a8 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [ESI + 0x1d8] (GhidraScript)  
+INFO  CrashSite.java> DIS TEST ECX,ECX (GhidraScript)  
+INFO  CrashSite.java> DIS JNZ 0x6f84e5b8 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV ECX,dword ptr [EAX] (GhidraScript)  
+INFO  CrashSite.java> DIS PUSH EAX (GhidraScript)  
+INFO  CrashSite.java> DIS CALL dword ptr [ECX + 0x8] (GhidraScript)  
+INFO  CrashSite.java> DIS MOV dword ptr [ESI + 0x20c],0x0 (GhidraScript)  
+INFO  CrashSite.java> DIS MOV EAX,EDI (GhidraScript)  
+INFO  CrashSite.java> DIS POP EDI (GhidraScript)  
+INFO  CrashSite.java> DIS POP ESI (GhidraScript)  
+INFO  CrashSite.java> DIS POP EBP (GhidraScript)  
+INFO  CrashSite.java> DIS POP EBX (GhidraScript)  
+INFO  CrashSite.java> DIS ADD ESP,0x270 (GhidraScript)  
+INFO  CrashSite.java> DIS RET (GhidraScript)  
+INFO  CrashSite.java> C 
+ (GhidraScript)  
+INFO  CrashSite.java> C char * __fastcall FUN_6f84dc40(void *param_1)
+ (GhidraScript)  
+INFO  CrashSite.java> C 
+ (GhidraScript)  
+INFO  CrashSite.java> C {
+ (GhidraScript)  
+INFO  CrashSite.java> C   int *piVar1;
+ (GhidraScript)  
+INFO  CrashSite.java> C   void *this;
+ (GhidraScript)  
+INFO  CrashSite.java> C   byte bVar2;
+ (GhidraScript)  
+INFO  CrashSite.java> C   int *piVar3;
+ (GhidraScript)  
+INFO  CrashSite.java> C   undefined1 uVar4;
+ (GhidraScript)  
+INFO  CrashSite.java> C   ushort uVar5;
+ (GhidraScript)  
+INFO  CrashSite.java> C   short sVar6;
+ (GhidraScript)  
+INFO  CrashSite.java> C   char *pcVar7;
+ (GhidraScript)  
+INFO  CrashSite.java> C   undefined4 *puVar8;
+ (GhidraScript)  
+INFO  CrashSite.java> C   uint uVar9;
+ (GhidraScript)  
+INFO  CrashSite.java> C   int iVar10;
+ (GhidraScript)  
+INFO  CrashSite.java> C   undefined3 extraout_var;
+ (GhidraScript)  
+INFO  CrashSite.java> C   int iVar11;
+ (GhidraScript)  
+INFO  CrashSite.java> C   int *piVar12;
+ (GhidraScript)  
+INFO  CrashSite.java> C   ushort *puVar13;
+ (GhidraScript)  
+INFO  CrashSite.java> C   undefined4 local_270;
+ (GhidraScript)  
+INFO  CrashSite.java> C   LPCSTR pCStack_26c;
+ (GhidraScript)  
+INFO  CrashSite.java> C   ushort *puStack_268;
+ (GhidraScript)  
+INFO  CrashSite.java> C   ushort *puStack_264;
+ (GhidraScript)  
+INFO  CrashSite.java> C   int *local_260;
+ (GhidraScript)  
+INFO  CrashSite.java> C   int *local_25c;
+ (GhidraScript)  
+INFO  CrashSite.java> C   uint *local_258;
+ (GhidraScript)  
+INFO  CrashSite.java> C   char *local_254;
+ (GhidraScript)  
+INFO  CrashSite.java> C   int iStack_250;
+ (GhidraScript)  
+INFO  CrashSite.java> C   uint uStack_24c;
+ (GhidraScript)  
+INFO  CrashSite.java> C   LPCSTR pCStack_248;
+ (GhidraScript)  
+INFO  CrashSite.java> C   LPCSTR pCStack_244;
+ (GhidraScript)  
+INFO  CrashSite.java> C   uint uStack_240;
+ (GhidraScript)  
+INFO  CrashSite.java> C   int iStack_23c;
+ (GhidraScript)  
+INFO  CrashSite.java> C   int iStack_238;
+ (GhidraScript)  
+INFO  CrashSite.java> C   undefined4 uStack_234;
+ (GhidraScript)  
+INFO  CrashSite.java> C   ushort *puStack_230;
+ (GhidraScript)  
+INFO  CrashSite.java> C   int local_22c;
+ (GhidraScript)  
+INFO  CrashSite.java> C   undefined4 local_228;
+ (GhidraScript)  
+INFO  CrashSite.java> C   int local_224;
+ (GhidraScript)  
+INFO  CrashSite.java> C   char *pcStack_220;
+ (GhidraScript)  
+INFO  CrashSite.java> C   int *piStack_21c;
+ (GhidraScript)  
+INFO  CrashSite.java> C   uint uStack_218;
+ (GhidraScript)  
+INFO  CrashSite.java> C   ushort *puStack_214;
+ (GhidraScript)  
+INFO  CrashSite.java> C   undefined4 uStack_210;
+ (GhidraScript)  
+INFO  CrashSite.java> C   undefined4 uStack_20c;
+ (GhidraScript)  
+INFO  CrashSite.java> C   undefined4 uStack_208;
+ (GhidraScript)  
+INFO  CrashSite.java> C   int iStack_204;
+ (GhidraScript)  
+INFO  CrashSite.java> C   int iStack_200;
+ (GhidraScript)  
+INFO  CrashSite.java> C   int iStack_1fc;
+ (GhidraScript)  
+INFO  CrashSite.java> C   CHAR aCStack_1f8 [504];
+ (GhidraScript)  
+INFO  CrashSite.java> C   
+ (GhidraScript)  
+INFO  CrashSite.java> C   piVar12 = (int *)0x0;
+ (GhidraScript)  
+INFO  CrashSite.java> C   this = *(void **)((int)param_1 + 8);
+ (GhidraScript)  
+INFO  CrashSite.java> C   local_25c = (int *)0x0;
+ (GhidraScript)  
+INFO  CrashSite.java> C   local_22c = 0;
+ (GhidraScript)  
+INFO  CrashSite.java> C   local_260 = (int *)0x0;
+ (GhidraScript)  
+INFO  CrashSite.java> C   local_258 = (uint *)0x0;
+ (GhidraScript)  
+INFO  CrashSite.java> C   local_270 = 0;
+ (GhidraScript)  
+INFO  CrashSite.java> C   local_228 = 0;
+ (GhidraScript)  
+INFO  CrashSite.java> C   local_254 = (char *)0x0;
+ (GhidraScript)  
+INFO  CrashSite.java> C   if (*(int *)((int)this + 0x5c) == 0x14955e5b) {
+ (GhidraScript)  
+INFO  CrashSite.java> C LAB_6f84dc9d:
+ (GhidraScript)  
+INFO  CrashSite.java> C     bVar2 = 0;
+ (GhidraScript)  
+INFO  CrashSite.java> C   }
+ (GhidraScript)  
+INFO  CrashSite.java> C   else {
+ (GhidraScript)  
+INFO  CrashSite.java> C     if (*(int *)((int)this + 0x8c) == 0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C       iVar10 = 8;
+ (GhidraScript)  
+INFO  CrashSite.java> C     }
+ (GhidraScript)  
+INFO  CrashSite.java> C     else {
+ (GhidraScript)  
+INFO  CrashSite.java> C       iVar10 = 9;
+ (GhidraScript)  
+INFO  CrashSite.java> C     }
+ (GhidraScript)  
+INFO  CrashSite.java> C     if ((*(uint *)((int)this + 0x88) >> iVar10 & 1) == 0) goto LAB_6f84dc9d;
+ (GhidraScript)  
+INFO  CrashSite.java> C     bVar2 = 1;
+ (GhidraScript)  
+INFO  CrashSite.java> C   }
+ (GhidraScript)  
+INFO  CrashSite.java> C   pcVar7 = (char *)FUN_6f827160(this,&local_224,(-(uint)bVar2 & 0xfffff000) + 0x1000);
+ (GhidraScript)  
+INFO  CrashSite.java> C   if (-1 < (int)pcVar7) {
+ (GhidraScript)  
+INFO  CrashSite.java> C     *(undefined4 *)((int)param_1 + 0x1f8) = *(undefined4 *)(local_224 + 0x18);
+ (GhidraScript)  
+INFO  CrashSite.java> C     puVar8 = FUN_6f8461d0(*(int **)((int)param_1 + 4));
+ (GhidraScript)  
+INFO  CrashSite.java> C     *(undefined4 **)((int)param_1 + 0xac) = puVar8;
+ (GhidraScript)  
+INFO  CrashSite.java> C     if (puVar8 == (undefined4 *)0x0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C       pcVar7 = (char *)0x8007000e;
+ (GhidraScript)  
+INFO  CrashSite.java> C     }
+ (GhidraScript)  
+INFO  CrashSite.java> C     else {
+ (GhidraScript)  
+INFO  CrashSite.java> C       puVar8 = FUN_6f8461d0(*(int **)((int)param_1 + 4));
+ (GhidraScript)  
+INFO  CrashSite.java> C       *(undefined4 **)((int)param_1 + 0xa4) = puVar8;
+ (GhidraScript)  
+INFO  CrashSite.java> C       if (puVar8 == (undefined4 *)0x0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C         pcVar7 = (char *)0x8007000e;
+ (GhidraScript)  
+INFO  CrashSite.java> C       }
+ (GhidraScript)  
+INFO  CrashSite.java> C       else {
+ (GhidraScript)  
+INFO  CrashSite.java> C         puVar8 = FUN_6f8461d0(*(int **)((int)param_1 + 4));
+ (GhidraScript)  
+INFO  CrashSite.java> C         *(undefined4 **)((int)param_1 + 0x18c) = puVar8;
+ (GhidraScript)  
+INFO  CrashSite.java> C         if (puVar8 == (undefined4 *)0x0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C           pcVar7 = (char *)0x8007000e;
+ (GhidraScript)  
+INFO  CrashSite.java> C         }
+ (GhidraScript)  
+INFO  CrashSite.java> C         else {
+ (GhidraScript)  
+INFO  CrashSite.java> C           puVar8 = FUN_6f8461d0(*(int **)((int)param_1 + 4));
+ (GhidraScript)  
+INFO  CrashSite.java> C           *(undefined4 **)((int)param_1 + 400) = puVar8;
+ (GhidraScript)  
+INFO  CrashSite.java> C           if (puVar8 == (undefined4 *)0x0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C             pcVar7 = (char *)0x8007000e;
+ (GhidraScript)  
+INFO  CrashSite.java> C           }
+ (GhidraScript)  
+INFO  CrashSite.java> C           else {
+ (GhidraScript)  
+INFO  CrashSite.java> C             local_254 = (char *)(**(code **)(**(int **)((int)param_1 + 0x9c) + 0x48))
+ (GhidraScript)  
+INFO  CrashSite.java> C                                           (*(int **)((int)param_1 + 0x9c),0,&local_25c);
+ (GhidraScript)  
+INFO  CrashSite.java> C             if (((((-1 < (int)local_254) &&
+ (GhidraScript)  
+INFO  CrashSite.java> C                   (local_254 = (char *)HrAddColumns(local_25c,&DAT_6f8232d0,
+ (GhidraScript)  
+INFO  CrashSite.java> C                                                     *(undefined4 *)(*(int *)((int)param_1 + 8) + 8),
+ (GhidraScript)  
+INFO  CrashSite.java> C                                                     *(undefined4 *)(*(int *)((int)param_1 + 8) + 4))
+ (GhidraScript)  
+INFO  CrashSite.java> C                   , -1 < (int)local_254)) &&
+ (GhidraScript)  
+INFO  CrashSite.java> C                  (local_254 = (char *)(**(code **)(*local_25c + 0x24))(local_25c,0,&local_22c),
+ (GhidraScript)  
+INFO  CrashSite.java> C                  -1 < (int)local_254)) &&
+ (GhidraScript)  
+INFO  CrashSite.java> C                 ((*(int *)((int)param_1 + 0x1bc) != 0 ||
+ (GhidraScript)  
+INFO  CrashSite.java> C                  (pcVar7 = (char *)(**(code **)(*(int *)((int)param_1 + 8) + 8))
+ (GhidraScript)  
+INFO  CrashSite.java> C                                              (local_22c * 4,(int)param_1 + 0x214), -1 < (int)pcVar7)
+ (GhidraScript)  
+INFO  CrashSite.java> C                  ))) && (local_254 = (char *)(**(code **)(*local_25c + 0x20))
+ (GhidraScript)  
+INFO  CrashSite.java> C                                                        (local_25c,1,&local_228), -1 < (int)local_254
+ (GhidraScript)  
+INFO  CrashSite.java> C                         )) {
+ (GhidraScript)  
+INFO  CrashSite.java> C               iVar10 = *(int *)((int)param_1 + 8);
+ (GhidraScript)  
+INFO  CrashSite.java> C               pcVar7 = (char *)CreateTable(&DAT_6f822ef0,*(undefined4 *)(iVar10 + 8),
+ (GhidraScript)  
+INFO  CrashSite.java> C                                            *(undefined4 *)(iVar10 + 0xc),*(undefined4 *)(iVar10 + 4)
+ (GhidraScript)  
+INFO  CrashSite.java> C                                            ,*(undefined4 *)(iVar10 + 0x10),2,0x30000003,local_228,
+ (GhidraScript)  
+INFO  CrashSite.java> C                                            (int)param_1 + 0x20c);
+ (GhidraScript)  
+INFO  CrashSite.java> C               if (-1 < (int)pcVar7) {
+ (GhidraScript)  
+INFO  CrashSite.java> C LAB_6f84de28:
+ (GhidraScript)  
+INFO  CrashSite.java> C                 piVar12 = (int *)0x0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 puStack_268 = (ushort *)0x0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 puStack_264 = (ushort *)0x0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 pCStack_248 = (LPCSTR)0x0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 pCStack_244 = (LPCSTR)0x0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 pCStack_26c = (LPCSTR)0x0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 puStack_230 = (ushort *)0x0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 iStack_23c = 0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 uStack_240 = 0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 uStack_24c = 0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 iStack_250 = 1;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 uStack_218 = 0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 iStack_238 = 0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 uStack_234 = 0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 pcVar7 = (char *)FUN_6f84ba60((int)param_1);
+ (GhidraScript)  
+INFO  CrashSite.java> C                 if (pcVar7 != (char *)0x0) goto LAB_6f84e550;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 local_258 = (uint *)0x0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 local_270 = 0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 local_254 = (char *)(**(code **)(*local_25c + 0x4c))(local_25c,1,0,&local_260);
+ (GhidraScript)  
+INFO  CrashSite.java> C                 piVar3 = local_260;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 if ((int)local_254 < 0) goto LAB_6f84e550;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 if (*local_260 == 0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                   (**(code **)(*local_25c + 8))(local_25c);
+ (GhidraScript)  
+INFO  CrashSite.java> C                   local_25c = (int *)0x0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                   if ((*(int *)(*(int *)((int)param_1 + 0xac) + 8) != 0) &&
+ (GhidraScript)  
+INFO  CrashSite.java> C                      (pcVar7 = (char *)FUN_6f851f60((int)param_1), -1 < (int)pcVar7)) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                     pcVar7 = (char *)FUN_6f851fa0((int)param_1);
+ (GhidraScript)  
+INFO  CrashSite.java> C                   }
+ (GhidraScript)  
+INFO  CrashSite.java> C                   goto LAB_6f84e550;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 piVar12 = local_260 + 1;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 uVar9 = *(uint *)(local_260[3] + 0x50) & 0xffff;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 piStack_21c = piVar12;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 if ((uVar9 == 1) || (uVar9 == 10)) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                   local_270 = 3;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 else {
+ (GhidraScript)  
+INFO  CrashSite.java> C                   pCStack_248 = (LPCSTR)FUN_6f846190((uint *)(local_260[3] + 0x50),(uint *)0x0);
+ (GhidraScript)  
+INFO  CrashSite.java> C                 }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 uVar9 = *(uint *)(piVar3[3] + 0x40) & 0xffff;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 if ((uVar9 != 1) && (uVar9 != 10)) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                   pCStack_26c = (LPCSTR)FUN_6f846190((uint *)(piVar3[3] + 0x40),(uint *)0x0);
+ (GhidraScript)  
+INFO  CrashSite.java> C                 }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 uVar9 = *(uint *)(piVar3[3] + 0x30) & 0xffff;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 puVar13 = puStack_264;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 if ((uVar9 != 1) && (uVar9 != 10)) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                   puStack_268 = (ushort *)FUN_6f846190((uint *)(piVar3[3] + 0x30),(uint *)0x0);
+ (GhidraScript)  
+INFO  CrashSite.java> C                   iVar10 = FUN_6f8497b0(0,(BYTE *)puStack_268);
+ (GhidraScript)  
+INFO  CrashSite.java> C                   puVar13 = puStack_268;
+ (GhidraScript)  
+INFO  CrashSite.java> C                   if (iVar10 == 0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                     puStack_268 = (ushort *)0x0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                     puVar13 = puStack_268;
+ (GhidraScript)  
+INFO  CrashSite.java> C                   }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 pCStack_244 = pCStack_248;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 uVar9 = uStack_218;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 if (pCStack_26c != (LPCSTR)0x0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                   uVar5 = FUN_6f83df00(pCStack_26c);
+ (GhidraScript)  
+INFO  CrashSite.java> C                   uVar9 = (uint)uVar5;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 if ((*(short *)(piVar3[3] + 0x28) == 0) &&
+ (GhidraScript)  
+INFO  CrashSite.java> C                    ((sVar6 = (short)uVar9, sVar6 == 0x21 || (sVar6 == 0x15)))) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                   pcVar7 = FUN_6f840290(*(int *)((int)param_1 + 8),pCStack_248,puStack_268,sVar6,
+ (GhidraScript)  
+INFO  CrashSite.java> C                                         &puStack_230,&iStack_1fc,(char *)0x0);
+ (GhidraScript)  
+INFO  CrashSite.java> C                   if ((int)pcVar7 < 0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                     iStack_250 = 0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                   }
+ (GhidraScript)  
+INFO  CrashSite.java> C                   else {
+ (GhidraScript)  
+INFO  CrashSite.java> C                     puStack_268 = puStack_230;
+ (GhidraScript)  
+INFO  CrashSite.java> C                     pcVar7 = (char *)(**(code **)(*(int *)((int)param_1 + 8) + 8))(4,&pCStack_26c);
+ (GhidraScript)  
+INFO  CrashSite.java> C                     if ((int)pcVar7 < 0) goto LAB_6f84e550;
+ (GhidraScript)  
+INFO  CrashSite.java> C                     *(undefined4 *)pCStack_26c = DAT_6f823230;
+ (GhidraScript)  
+INFO  CrashSite.java> C                     *(undefined4 *)((int)param_1 + 0x1d8) = 1;
+ (GhidraScript)  
+INFO  CrashSite.java> C                   }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 iVar10 = piVar3[3];
+ (GhidraScript)  
+INFO  CrashSite.java> C                 uVar9 = *(uint *)(iVar10 + 0x60) & 0xffff;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 if ((uVar9 == 1) || (uVar9 == 10)) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                   local_270 = 3;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 else {
+ (GhidraScript)  
+INFO  CrashSite.java> C                   if (((*(short *)(iVar10 + 0x28) == 0) || (*(int *)((int)param_1 + 0x1bc) != 0)) &&
+ (GhidraScript)  
+INFO  CrashSite.java> C                      (uVar4 = FUN_6f828f70(*(int *)(iVar10 + 0x6c),*(uint *)(iVar10 + 0x68)),
+ (GhidraScript)  
+INFO  CrashSite.java> C                      CONCAT31(extraout_var,uVar4) == 0)) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                     iVar10 = piVar3[3];
+ (GhidraScript)  
+INFO  CrashSite.java> C                     iStack_238 = *(int *)(iVar10 + 0x6c);
+ (GhidraScript)  
+INFO  CrashSite.java> C                     uStack_234 = *(undefined4 *)(iVar10 + 0x68);
+ (GhidraScript)  
+INFO  CrashSite.java> C                     pcVar7 = (char *)FUN_6f852550(*(int *)((int)param_1 + 8),iVar10,6,pCStack_26c,
+ (GhidraScript)  
+INFO  CrashSite.java> C                                                   pCStack_248,(char *)puVar13,(undefined4 *)0x0);
+ (GhidraScript)  
+INFO  CrashSite.java> C                     if ((int)pcVar7 < 0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                       iStack_250 = 0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                     }
+ (GhidraScript)  
+INFO  CrashSite.java> C                   }
+ (GhidraScript)  
+INFO  CrashSite.java> C                   iStack_23c = *(int *)(piVar3[3] + 0x6c);
+ (GhidraScript)  
+INFO  CrashSite.java> C                   uStack_240 = *(uint *)(piVar3[3] + 0x68);
+ (GhidraScript)  
+INFO  CrashSite.java> C                 }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 uVar9 = *(uint *)(piVar3[3] + 0x80) & 0xffff;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 if ((uVar9 != 1) && (uVar9 != 10)) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                   *(undefined4 *)((int)param_1 + 0x1d8) = 1;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 puStack_264 = *(ushort **)(piVar3[3] + 0x18);
+ (GhidraScript)  
+INFO  CrashSite.java> C                 if (((*(int *)((int)param_1 + 0x1bc) == 0) ||
+ (GhidraScript)  
+INFO  CrashSite.java> C                     (puStack_264 = (ushort *)((uint)puStack_264 & 0x7fffffff),
+ (GhidraScript)  
+INFO  CrashSite.java> C                     *(int *)((int)param_1 + 0x1bc) == 0)) && (puStack_264 == (ushort *)0x3)) {
+ (GhidraScript)  
+INFO  CrashSite.java> C LAB_6f84e0c7:
+ (GhidraScript)  
+INFO  CrashSite.java> C                   if (puStack_264 == (ushort *)0x10000000) goto LAB_6f84e0cf;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 else {
+ (GhidraScript)  
+INFO  CrashSite.java> C                   if (puStack_264 != (ushort *)0x10000000) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                     pcVar7 = (char *)(**(code **)(**(int **)((int)param_1 + 0x20c) + 0x10))
+ (GhidraScript)  
+INFO  CrashSite.java> C                                                (*(int **)((int)param_1 + 0x20c),piVar12);
+ (GhidraScript)  
+INFO  CrashSite.java> C                     if (-1 < (int)pcVar7) goto LAB_6f84e0c7;
+ (GhidraScript)  
+INFO  CrashSite.java> C                     goto LAB_6f84e550;
+ (GhidraScript)  
+INFO  CrashSite.java> C                   }
+ (GhidraScript)  
+INFO  CrashSite.java> C LAB_6f84e0cf:
+ (GhidraScript)  
+INFO  CrashSite.java> C                   puStack_264 = (ushort *)0x3;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 if (puStack_264 == (ushort *)0x3) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                   *(undefined4 *)((int)param_1 + 0x1d8) = 1;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 iVar10 = *(int *)((int)param_1 + 0x1bc);
+ (GhidraScript)  
+INFO  CrashSite.java> C                 if ((iVar10 != 0) && ((*(byte *)((int)param_1 + 0x1c4) & 8) != 0)) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                   local_270 = 3;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 if ((iStack_250 != 0) && ((short)local_270 == 0)) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                   if ((iVar10 != 0) || (*(short *)(piVar3[3] + 0x28) == 0)) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                     if (*(int *)((int)param_1 + 0x200) != 0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                       uStack_24c = uStack_24c | 0x1000000;
+ (GhidraScript)  
+INFO  CrashSite.java> C                     }
+ (GhidraScript)  
+INFO  CrashSite.java> C                     pcVar7 = (char *)FUN_6f852360(param_1,&uStack_24c,(undefined2 *)&local_270,
+ (GhidraScript)  
+INFO  CrashSite.java> C                                                   iStack_23c,uStack_240,(int *)&pCStack_244,
+ (GhidraScript)  
+INFO  CrashSite.java> C                                                   (int *)&pCStack_26c,(int *)&puStack_268,iVar10,
+ (GhidraScript)  
+INFO  CrashSite.java> C                                                   (int *)&pcStack_220);
+ (GhidraScript)  
+INFO  CrashSite.java> C                     if ((int)pcVar7 < 0) goto LAB_6f84e550;
+ (GhidraScript)  
+INFO  CrashSite.java> C                   }
+ (GhidraScript)  
+INFO  CrashSite.java> C                   if ((uStack_24c & 0x80000000) == 0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                     iStack_250 = 0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                   }
+ (GhidraScript)  
+INFO  CrashSite.java> C                   else {
+ (GhidraScript)  
+INFO  CrashSite.java> C                     *(undefined2 *)(piVar3[3] + 0x28) = 1;
+ (GhidraScript)  
+INFO  CrashSite.java> C                   }
+ (GhidraScript)  
+INFO  CrashSite.java> C                   if (iStack_250 == 0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C LAB_6f84e208:
+ (GhidraScript)  
+INFO  CrashSite.java> C                     *(undefined4 *)((int)param_1 + 0x1d8) = 1;
+ (GhidraScript)  
+INFO  CrashSite.java> C                     if (piVar12 != (int *)0x0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C LAB_6f84e4e3:
+ (GhidraScript)  
+INFO  CrashSite.java> C                       (**(code **)(*(int *)((int)param_1 + 8) + 4))(piVar12[2]);
+ (GhidraScript)  
+INFO  CrashSite.java> C                     }
+ (GhidraScript)  
+INFO  CrashSite.java> C LAB_6f84e4ed:
+ (GhidraScript)  
+INFO  CrashSite.java> C                     (**(code **)(*(int *)((int)param_1 + 8) + 4))(local_260);
+ (GhidraScript)  
+INFO  CrashSite.java> C                     goto LAB_6f84e4f8;
+ (GhidraScript)  
+INFO  CrashSite.java> C                   }
+ (GhidraScript)  
+INFO  CrashSite.java> C                   if (puStack_264 != (ushort *)0x3) goto LAB_6f84e200;
+ (GhidraScript)  
+INFO  CrashSite.java> C                   piVar1 = (int *)((int)param_1 + 0x1d4);
+ (GhidraScript)  
+INFO  CrashSite.java> C                   if (*(int *)((int)param_1 + 0x1d4) == 0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                     pcVar7 = (char *)(**(code **)(*(int *)((int)param_1 + 8) + 8))
+ (GhidraScript)  
+INFO  CrashSite.java> C                                                (local_22c * 0xc + 4,piVar1);
+ (GhidraScript)  
+INFO  CrashSite.java> C                     if ((int)pcVar7 < 0) goto LAB_6f84e550;
+ (GhidraScript)  
+INFO  CrashSite.java> C                     *(undefined4 *)*piVar1 = 0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                   }
+ (GhidraScript)  
+INFO  CrashSite.java> C                   iVar10 = *(int *)*piVar1;
+ (GhidraScript)  
+INFO  CrashSite.java> C                   ((int *)*piVar1)[iVar10 * 3 + 2] = piVar3[2];
+ (GhidraScript)  
+INFO  CrashSite.java> C                   *(int *)(*piVar1 + (iVar10 + 1) * 0xc) = piStack_21c[2];
+ (GhidraScript)  
+INFO  CrashSite.java> C                   *(int *)*piVar1 = *(int *)*piVar1 + 1;
+ (GhidraScript)  
+INFO  CrashSite.java> C                   piVar12 = piStack_21c;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 }
+ (GhidraScript)  
+INFO  CrashSite.java> C LAB_6f84e200:
+ (GhidraScript)  
+INFO  CrashSite.java> C                 if (iStack_250 == 0) goto LAB_6f84e208;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 if (*(int *)((int)param_1 + 0xe4) == 0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                   if (*(int *)((int)param_1 + 0x1c8) == 0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                     if ((*(byte *)(*(int *)((int)param_1 + 8) + 0x3c) & 0x20) == 0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                       local_270 = 0xc;
+ (GhidraScript)  
+INFO  CrashSite.java> C                     }
+ (GhidraScript)  
+INFO  CrashSite.java> C                   }
+ (GhidraScript)  
+INFO  CrashSite.java> C                   else {
+ (GhidraScript)  
+INFO  CrashSite.java> C                     local_270 = 8;
+ (GhidraScript)  
+INFO  CrashSite.java> C                   }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 else {
+ (GhidraScript)  
+INFO  CrashSite.java> C                   local_270 = 0xe;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 if ((short)local_270 != 0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C LAB_6f84e3c4:
+ (GhidraScript)  
+INFO  CrashSite.java> C                   if ((short)local_270 != 0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                     pcVar7 = (char *)FUN_6f84e5d0(*(int *)((int)param_1 + 8),
+ (GhidraScript)  
+INFO  CrashSite.java> C                                                   *(undefined4 *)((int)param_1 + 0x1bc),local_270,
+ (GhidraScript)  
+INFO  CrashSite.java> C                                                   *(char **)(piVar12[2] + 8),(char *)0x0,pCStack_26c
+ (GhidraScript)  
+INFO  CrashSite.java> C                                                   ,(char *)puStack_268,(undefined4 *)pCStack_248,
+ (GhidraScript)  
+INFO  CrashSite.java> C                                                   (char)*(undefined4 *)(piVar12[2] + 0x18),0x81,0,
+ (GhidraScript)  
+INFO  CrashSite.java> C                                                   &local_258);
+ (GhidraScript)  
+INFO  CrashSite.java> C                     if ((int)pcVar7 < 0) goto LAB_6f84e550;
+ (GhidraScript)  
+INFO  CrashSite.java> C                     if (*(int *)((int)param_1 + 0x1bc) == 0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                       pcVar7 = (char *)FUN_6f851f00((int)param_1);
+ (GhidraScript)  
+INFO  CrashSite.java> C                     }
+ (GhidraScript)  
+INFO  CrashSite.java> C                     else {
+ (GhidraScript)  
+INFO  CrashSite.java> C                       pcVar7 = (char *)FUN_6f851a10(param_1,(byte *)&local_258);
+ (GhidraScript)  
+INFO  CrashSite.java> C                     }
+ (GhidraScript)  
+INFO  CrashSite.java> C                     if ((int)pcVar7 < 0) goto LAB_6f84e550;
+ (GhidraScript)  
+INFO  CrashSite.java> C                     *(undefined4 *)((int)param_1 + 0x1d8) = 1;
+ (GhidraScript)  
+INFO  CrashSite.java> C                   }
+ (GhidraScript)  
+INFO  CrashSite.java> C                   if ((*(int *)((int)param_1 + 0x1bc) == 0) &&
+ (GhidraScript)  
+INFO  CrashSite.java> C                      (((short)local_270 != 0 || (*(int *)((int)param_1 + 0x200) == 0)))) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                     iStack_204 = piVar12[1];
+ (GhidraScript)  
+INFO  CrashSite.java> C                     iStack_200 = piVar12[2];
+ (GhidraScript)  
+INFO  CrashSite.java> C                     uStack_20c = 1;
+ (GhidraScript)  
+INFO  CrashSite.java> C                     uStack_208 = 0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                     if (iStack_238 != 0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                       *(int *)(iStack_200 + 0x6c) = iStack_238;
+ (GhidraScript)  
+INFO  CrashSite.java> C                       *(undefined4 *)(piVar12[2] + 0x68) = uStack_234;
+ (GhidraScript)  
+INFO  CrashSite.java> C                     }
+ (GhidraScript)  
+INFO  CrashSite.java> C                     local_254 = (char *)(**(code **)(**(int **)((int)param_1 + 0x9c) + 0x4c))
+ (GhidraScript)  
+INFO  CrashSite.java> C                                                   (*(int **)((int)param_1 + 0x9c),4,&uStack_20c);
+ (GhidraScript)  
+INFO  CrashSite.java> C                     *(undefined4 *)
+ (GhidraScript)  
+INFO  CrashSite.java> C                      (*(int *)((int)param_1 + 0x214) + *(int *)((int)param_1 + 0x210) * 4) =
+ (GhidraScript)  
+INFO  CrashSite.java> C                          *(undefined4 *)(piVar12[2] + 8);
+ (GhidraScript)  
+INFO  CrashSite.java> C                     *(int *)((int)param_1 + 0x210) = *(int *)((int)param_1 + 0x210) + 1;
+ (GhidraScript)  
+INFO  CrashSite.java> C                     if ((int)local_254 < 0) goto LAB_6f84e550;
+ (GhidraScript)  
+INFO  CrashSite.java> C                   }
+ (GhidraScript)  
+INFO  CrashSite.java> C                   if (puStack_264 != (ushort *)0x3) goto LAB_6f84e4e3;
+ (GhidraScript)  
+INFO  CrashSite.java> C                   goto LAB_6f84e4ed;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 if ((uStack_24c & 0x20000) == 0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                   iVar10 = iStack_238;
+ (GhidraScript)  
+INFO  CrashSite.java> C                   if (iStack_238 == 0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                     iVar10 = iStack_23c;
+ (GhidraScript)  
+INFO  CrashSite.java> C                   }
+ (GhidraScript)  
+INFO  CrashSite.java> C                   lstrcpyA(aCStack_1f8,(LPCSTR)puStack_268);
+ (GhidraScript)  
+INFO  CrashSite.java> C                   iVar11 = lstrcmpiA(pCStack_26c,"FAX");
+ (GhidraScript)  
+INFO  CrashSite.java> C                   if (iVar11 == 0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                     FUN_6f852980(*(int *)((int)param_1 + 8),iVar10);
+ (GhidraScript)  
+INFO  CrashSite.java> C                   }
+ (GhidraScript)  
+INFO  CrashSite.java> C                   pcVar7 = (char *)FUN_6f84e5d0(*(int *)((int)param_1 + 8),
+ (GhidraScript)  
+INFO  CrashSite.java> C                                                 *(undefined4 *)((int)param_1 + 0x1bc),local_270,
+ (GhidraScript)  
+INFO  CrashSite.java> C                                                 *(char **)(piVar12[2] + 8),pcStack_220,pCStack_26c,
+ (GhidraScript)  
+INFO  CrashSite.java> C                                                 aCStack_1f8,(undefined4 *)pCStack_244,
+ (GhidraScript)  
+INFO  CrashSite.java> C                                                 (char)puStack_264,0x81,0,&local_258);
+ (GhidraScript)  
+INFO  CrashSite.java> C                   if (-1 < (int)pcVar7) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                     if ((uStack_24c & 0x40000) != 0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                       *local_258 = *local_258 | 1;
+ (GhidraScript)  
+INFO  CrashSite.java> C                     }
+ (GhidraScript)  
+INFO  CrashSite.java> C                     pcVar7 = (char *)FUN_6f851a10(param_1,(byte *)&local_258);
+ (GhidraScript)  
+INFO  CrashSite.java> C joined_r0x6f84e3be:
+ (GhidraScript)  
+INFO  CrashSite.java> C                     if (-1 < (int)pcVar7) goto LAB_6f84e3c4;
+ (GhidraScript)  
+INFO  CrashSite.java> C                   }
+ (GhidraScript)  
+INFO  CrashSite.java> C                   goto LAB_6f84e550;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 uVar9 = *(uint *)(*(int *)((int)param_1 + 8) + 0x84);
+ (GhidraScript)  
+INFO  CrashSite.java> C                 *(uint *)(*(int *)((int)param_1 + 8) + 0x84) = uVar9 & 0xefffffff;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 puStack_214 = puStack_264;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 uStack_210 = *(undefined4 *)(piVar12[2] + 8);
+ (GhidraScript)  
+INFO  CrashSite.java> C                 pcVar7 = (char *)FUN_6f83fbb0(*(void **)((int)param_1 + 8),iStack_23c,uStack_240,
+ (GhidraScript)  
+INFO  CrashSite.java> C                                               pCStack_244,(LPCSTR)puStack_268,&puStack_214);
+ (GhidraScript)  
+INFO  CrashSite.java> C                 *(uint *)(*(int *)((int)param_1 + 8) + 0x84) = uVar9;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 if (pcVar7 != (char *)0x1) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                   if (pcVar7 == (char *)0x2) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                     pcVar7 = (char *)0x0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                     local_270 = 2;
+ (GhidraScript)  
+INFO  CrashSite.java> C                   }
+ (GhidraScript)  
+INFO  CrashSite.java> C                   goto joined_r0x6f84e3be;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 (**(code **)(*(int *)((int)param_1 + 8) + 4))(piVar12[2]);
+ (GhidraScript)  
+INFO  CrashSite.java> C                 (**(code **)(*(int *)((int)param_1 + 8) + 4))(puStack_264);
+ (GhidraScript)  
+INFO  CrashSite.java> C LAB_6f84e4f8:
+ (GhidraScript)  
+INFO  CrashSite.java> C                 local_260 = (int *)0x0;
+ (GhidraScript)  
+INFO  CrashSite.java> C                 if (puStack_230 != (ushort *)0x0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C                   (**(code **)(*(int *)((int)param_1 + 8) + 4))(puStack_230);
+ (GhidraScript)  
+INFO  CrashSite.java> C                   (**(code **)(*(int *)((int)param_1 + 8) + 4))(local_270);
+ (GhidraScript)  
+INFO  CrashSite.java> C                 }
+ (GhidraScript)  
+INFO  CrashSite.java> C                 goto LAB_6f84de28;
+ (GhidraScript)  
+INFO  CrashSite.java> C               }
+ (GhidraScript)  
+INFO  CrashSite.java> C             }
+ (GhidraScript)  
+INFO  CrashSite.java> C           }
+ (GhidraScript)  
+INFO  CrashSite.java> C         }
+ (GhidraScript)  
+INFO  CrashSite.java> C       }
+ (GhidraScript)  
+INFO  CrashSite.java> C     }
+ (GhidraScript)  
+INFO  CrashSite.java> C LAB_6f84e550:
+ (GhidraScript)  
+INFO  CrashSite.java> C     if (local_254 != (char *)0x0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C       pcVar7 = local_254;
+ (GhidraScript)  
+INFO  CrashSite.java> C     }
+ (GhidraScript)  
+INFO  CrashSite.java> C     if ((piVar12 != (int *)0x0) && (piVar12[2] != 0)) {
+ (GhidraScript)  
+INFO  CrashSite.java> C       (**(code **)(*(int *)((int)param_1 + 8) + 4))(piVar12[2]);
+ (GhidraScript)  
+INFO  CrashSite.java> C     }
+ (GhidraScript)  
+INFO  CrashSite.java> C     (**(code **)(*(int *)((int)param_1 + 8) + 4))(local_260);
+ (GhidraScript)  
+INFO  CrashSite.java> C     (**(code **)(*(int *)((int)param_1 + 8) + 4))(local_22c);
+ (GhidraScript)  
+INFO  CrashSite.java> C     if (puStack_264 != (ushort *)0x0) {
+ (GhidraScript)  
+INFO  CrashSite.java> C       (**(code **)(*(int *)puStack_264 + 8))(puStack_264);
+ (GhidraScript)  
+INFO  CrashSite.java> C     }
+ (GhidraScript)  
+INFO  CrashSite.java> C     piVar12 = *(int **)((int)param_1 + 0x20c);
+ (GhidraScript)  
+INFO  CrashSite.java> C     if ((piVar12 != (int *)0x0) && (((int)pcVar7 < 0 || (*(int *)((int)param_1 + 0x1d8) == 0)))) {
+ (GhidraScript)  
+INFO  CrashSite.java> C       (**(code **)(*piVar12 + 8))(piVar12);
+ (GhidraScript)  
+INFO  CrashSite.java> C       *(undefined4 *)((int)param_1 + 0x20c) = 0;
+ (GhidraScript)  
+INFO  CrashSite.java> C     }
+ (GhidraScript)  
+INFO  CrashSite.java> C   }
+ (GhidraScript)  
+INFO  CrashSite.java> C   return pcVar7;
+ (GhidraScript)  
+INFO  CrashSite.java> C }
+ (GhidraScript)  
+INFO  CrashSite.java> C 
+ (GhidraScript)  
+INFO  CrashSite.java> === MAPIFreeBuffer CALL SITES === (GhidraScript)  
+INFO  CrashSite.java> THUNK MAPIFreeBuffer @ 6f88682c (GhidraScript)  
+INFO  CrashSite.java>   CALLER FUN_6f8619f0 @ 6f861ae9 (UNCONDITIONAL_CALL) (GhidraScript)  
+INFO  CrashSite.java>   CALLER FUN_6f8619f0 @ 6f861af3 (UNCONDITIONAL_CALL) (GhidraScript)  
+INFO  CrashSite.java>   CALLER FUN_6f861f50 @ 6f861ff4 (UNCONDITIONAL_CALL) (GhidraScript)  
+INFO  CrashSite.java>   CALLER FUN_6f862180 @ 6f8621e5 (UNCONDITIONAL_CALL) (GhidraScript)  
+INFO  CrashSite.java>   CALLER FUN_6f85a4c0 @ 6f85a518 (UNCONDITIONAL_CALL) (GhidraScript)  
+INFO  CrashSite.java>   CALLER FUN_6f85a560 @ 6f85a565 (UNCONDITIONAL_CALL) (GhidraScript)  
+INFO  CrashSite.java>   CALLER ? @ 6f861ba0 (UNCONDITIONAL_CALL) (GhidraScript)  
+INFO  CrashSite.java>   CALLER ? @ 6f861b56 (UNCONDITIONAL_CALL) (GhidraScript)  
+INFO  CrashSite.java>   CALLER ? @ 6f88334f (UNCONDITIONAL_CALL) (GhidraScript)  
+INFO  CrashSite.java>   CALLER ? @ 6f883526 (UNCONDITIONAL_CALL) (GhidraScript)  
+INFO  CrashSite.java> === CALL CHAIN (3 levels up) === (GhidraScript)  
+INFO  CrashSite.java> L1 <- FUN_6f84be30 @ 6f84be30 (GhidraScript)  
+INFO  CrashSite.java> SCRIPT_DONE (GhidraScript)  
+INFO  REPORT: Save succeeded for processed file: /MSFS32.dll (HeadlessAnalyzer)  

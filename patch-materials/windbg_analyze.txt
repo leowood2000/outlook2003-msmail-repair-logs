@@ -1,0 +1,229 @@
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symcache*https://msdl.microsoft.com/download/symbols
+
+************* Preparing the environment for Debugger Extensions Gallery repositories **************
+   ExtensionRepository : Implicit
+   UseExperimentalFeatureForNugetShare : true
+   AllowNugetExeUpdate : true
+   NonInteractiveNuget : true
+   AllowNugetMSCredentialProviderInstall : true
+   AllowParallelInitializationOfLocalRepositories : true
+
+   -- Configuring repositories
+      ----> Repository : LocalInstalled, Enabled: true
+      ----> Repository : UserExtensions, Enabled: true
+
+>>>>>>>>>>>>> Preparing the environment for Debugger Extensions Gallery repositories completed, duration 0.000 seconds
+
+************* Waiting for Debugger Extensions Gallery to Initialize **************
+
+>>>>>>>>>>>>> Waiting for Debugger Extensions Gallery to Initialize completed, duration 0.031 seconds
+   ----> Repository : UserExtensions, Enabled: true, Packages count: 0
+   ----> Repository : LocalInstalled, Enabled: true, Packages count: 46
+
+Microsoft (R) Windows Debugger Version 10.0.29661.1004 X86
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+
+Loading Dump File [C:\Users\leowo\AppData\Local\CrashDumps\OUTLOOK.EXE.7644.dmp]
+User Mini Dump File with Full Memory : Only application data is available
+
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symcache*https://msdl.microsoft.com/download/symbols
+Symbol search path is: srv*C:\symcache*https://msdl.microsoft.com/download/symbols
+Executable search path is: 
+Windows 10 Version 22631 MP (22 procs) Free x86 compatible
+Product: WinNt, suite: SingleUserTS
+Edition build lab: 22621.1.amd64fre.ni_release.220506-1250
+Debug session time: Mon Oct 19 09:22:10.000 2026 (UTC + 8:00)
+System Uptime: 4 days 17:57:02.603
+Process Uptime: 4 days 16:17:22.000
+................................................................
+................................................................
+..........................................
+Loading unloaded module list
+................................................................
+This dump file has an exception of interest stored in it.
+The stored exception information can be accessed via .ecxr
+(1ddc.f560): Unknown exception - code c0000374 (first/second chance not available)
+For analysis of this file, run !analyze -v
+eax=00000000 ebx=00000000 ecx=0582f358 edx=7727c920 esi=00000000 edi=00000002
+eip=771c73fc esp=0582ebe0 ebp=0582ec20 iopl=0         nv up ei pl nz ac po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00000212
+ntdll!NtWaitForMultipleObjects+0xc:
+771c73fc c21400          ret     14h
+0:008> cdb: Reading initial command '.symfix+ C:\symcache; .reload; !analyze -v; q'
+WARNING: Whitespace at start of path element
+WARNING: Whitespace at start of path element
+WARNING: Whitespace at start of path element
+................................................................
+................................................................
+..........................................
+Loading unloaded module list
+................................................................
+................................................................
+................................................................
+..........................................
+Loading unloaded module list
+................................................................
+*******************************************************************************
+*                                                                             *
+*                        Exception Analysis                                   *
+*                                                                             *
+*******************************************************************************
+
+*** WARNING: Check Image - Checksum mismatch - Dump: 0x1b45f0, File: 0x1b98e6 - C:\symcache\ntdll.dll\4009274B1b2000\ntdll.dll
+*** WARNING: Check Image - Checksum mismatch - Dump: 0x1b45f0, File: 0x1b98e6 - C:\ProgramData\dbg\sym\ntdll.dll\4009274B1b2000\ntdll.dll
+*** WARNING: Check Image - Checksum mismatch - Dump: 0x1b45f0, File: 0x1b98e6 - C:\ProgramData\dbg\sym\ntdll.dll\4009274B1b2000\ntdll.dll
+
+KEY_VALUES_STRING: 1
+
+    Key  : Analysis.CPU.mSec
+    Value: 1796
+
+    Key  : Analysis.Elapsed.mSec
+    Value: 25187
+
+    Key  : Analysis.IO.Other.Mb
+    Value: 6
+
+    Key  : Analysis.IO.Read.Mb
+    Value: 1
+
+    Key  : Analysis.IO.Write.Mb
+    Value: 33
+
+    Key  : Analysis.Init.CPU.mSec
+    Value: 62
+
+    Key  : Analysis.Init.Elapsed.mSec
+    Value: 6416
+
+    Key  : Analysis.Memory.CommitPeak.Mb
+    Value: 94
+
+    Key  : Analysis.Version.DbgEng
+    Value: 10.0.29661.1004
+
+    Key  : Analysis.Version.Description
+    Value: 10.2608.26.1 x86fre
+
+    Key  : Analysis.Version.Ext
+    Value: 1.2608.26.1
+
+    Key  : Failure.Bucket
+    Value: HEAP_CORRUPTION_ACTIONABLE_BlockNotBusy_DOUBLE_FREE_c0000374_ntdll.dll!RtlpFreeHeapInternal
+
+    Key  : Failure.Exception.Code
+    Value: 0xc0000374
+
+    Key  : Failure.Exception.IP.Address
+    Value: 0x7723e62f
+
+    Key  : Failure.Exception.IP.Module
+    Value: ntdll
+
+    Key  : Failure.Exception.IP.Offset
+    Value: 0xee62f
+
+    Key  : Failure.Hash
+    Value: {f9e860eb-b03f-7415-804c-7e671e26c730}
+
+    Key  : Failure.ProblemClass.Primary
+    Value: HEAP_CORRUPTION
+
+    Key  : Faulting.IP.Type
+    Value: Paged
+
+    Key  : Timeline.OS.Boot.DeltaSec
+    Value: 410222
+
+    Key  : Timeline.Process.Start.DeltaSec
+    Value: 404242
+
+    Key  : WER.OS.Branch
+    Value: ni_release
+
+    Key  : WER.OS.Version
+    Value: 10.0.22621.1
+
+    Key  : WER.Process.Version
+    Value: 11.0.8326.0
+
+
+FILE_IN_CAB:  OUTLOOK.EXE.7644.dmp
+
+NTGLOBALFLAG:  0
+
+APPLICATION_VERIFIER_FLAGS:  0
+
+EXCEPTION_RECORD:  (.exr -1)
+ExceptionAddress: 7723e62f (ntdll!RtlReportFatalFailure+0x00000016)
+   ExceptionCode: c0000374
+  ExceptionFlags: 00000001
+NumberParameters: 1
+   Parameter[0]: 7727c920
+
+PROCESS_NAME:  OUTLOOK.EXE
+
+ERROR_CODE: (NTSTATUS) 0xc0000374 - <Unable to get error code text>
+
+EXCEPTION_CODE: (NTSTATUS) 0xc0000374 - <Unable to get error code text>
+
+EXCEPTION_CODE_STR:  c0000374
+
+EXCEPTION_PARAMETER1:  7727c920
+
+ADDITIONAL_DEBUG_TEXT:  Followup set based on attribute [Heap_Error_Type] from Frame:[0] on thread:[PSEUDO_THREAD]
+
+FAULTING_THREAD:  ffffffff
+
+STACK_TEXT:  
+00000000 00000000 ntdll!RtlpFreeHeapInternal+0x0
+
+
+STACK_COMMAND: !heap ; ** Pseudo Context ** ManagedPseudo ** Value: ffffffff ** ; kb
+
+IP_IN_PAGED_CODE: 
+ntdll!RtlReportFatalFailure+16
+7723e62f eb33            jmp     ntdll!RtlReportFatalFailure+0x4b (7723e664)
+
+SYMBOL_NAME:  ntdll!RtlpFreeHeapInternal+0
+
+MODULE_NAME: ntdll
+
+IMAGE_NAME:  ntdll.dll
+
+FAILURE_BUCKET_ID:  HEAP_CORRUPTION_ACTIONABLE_BlockNotBusy_DOUBLE_FREE_c0000374_ntdll.dll!RtlpFreeHeapInternal
+
+OS_VERSION:  10.0.22621.1
+
+BUILDLAB_STR:  ni_release
+
+OSPLATFORM_TYPE:  x86
+
+OSNAME:  Windows 10
+
+IMAGE_VERSION:  10.0.22621.6060
+
+FAILURE_ID_HASH:  {f9e860eb-b03f-7415-804c-7e671e26c730}
+
+Followup:     MachineOwner
+---------
+
+quit:
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\atlmfc.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\concurrency.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\cpp_rest.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\ObjectiveC.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\stl.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\Windows.Data.Json.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\Windows.Devices.Geolocation.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\Windows.Devices.Sensors.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\Windows.Media.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\windows.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\winrt.natvis'

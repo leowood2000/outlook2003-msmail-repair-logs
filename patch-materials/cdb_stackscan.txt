@@ -1,0 +1,333 @@
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symcache*https://msdl.microsoft.com/download/symbols
+
+************* Preparing the environment for Debugger Extensions Gallery repositories **************
+   ExtensionRepository : Implicit
+   UseExperimentalFeatureForNugetShare : true
+   AllowNugetExeUpdate : true
+   NonInteractiveNuget : true
+   AllowNugetMSCredentialProviderInstall : true
+   AllowParallelInitializationOfLocalRepositories : true
+
+   -- Configuring repositories
+      ----> Repository : LocalInstalled, Enabled: true
+      ----> Repository : UserExtensions, Enabled: true
+
+>>>>>>>>>>>>> Preparing the environment for Debugger Extensions Gallery repositories completed, duration 0.000 seconds
+
+************* Waiting for Debugger Extensions Gallery to Initialize **************
+
+>>>>>>>>>>>>> Waiting for Debugger Extensions Gallery to Initialize completed, duration 0.031 seconds
+   ----> Repository : UserExtensions, Enabled: true, Packages count: 0
+   ----> Repository : LocalInstalled, Enabled: true, Packages count: 46
+
+Microsoft (R) Windows Debugger Version 10.0.29661.1004 X86
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+
+Loading Dump File [C:\Users\leowo\AppData\Local\CrashDumps\OUTLOOK.EXE.7644.dmp]
+User Mini Dump File with Full Memory : Only application data is available
+
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symcache*https://msdl.microsoft.com/download/symbols
+Symbol search path is: srv*C:\symcache*https://msdl.microsoft.com/download/symbols
+Executable search path is: 
+Windows 10 Version 22631 MP (22 procs) Free x86 compatible
+Product: WinNt, suite: SingleUserTS
+Edition build lab: 22621.1.amd64fre.ni_release.220506-1250
+Debug session time: Mon Oct 19 09:22:10.000 2026 (UTC + 8:00)
+System Uptime: 4 days 17:57:02.603
+Process Uptime: 4 days 16:17:22.000
+................................................................
+................................................................
+..........................................
+Loading unloaded module list
+................................................................
+This dump file has an exception of interest stored in it.
+The stored exception information can be accessed via .ecxr
+(1ddc.f560): Unknown exception - code c0000374 (first/second chance not available)
+For analysis of this file, run !analyze -v
+eax=00000000 ebx=00000000 ecx=0582f358 edx=7727c920 esi=00000000 edi=00000002
+eip=771c73fc esp=0582ebe0 ebp=0582ec20 iopl=0         nv up ei pl nz ac po nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00000212
+ntdll!NtWaitForMultipleObjects+0xc:
+771c73fc c21400          ret     14h
+0:008> cdb: Reading initial command '.ecxr; dps 0582f300 0582f700; s -b 6f821000 6f887000 ff 15 2c 68 88 6f; q'
+eax=0582f328 ebx=00000000 ecx=0582f358 edx=7727c920 esi=00000002 edi=0c7912f8
+eip=7723e62f esp=0582f300 ebp=0582f338 iopl=0         nv up ei pl zr na pe nc
+cs=0023  ss=002b  ds=002b  es=002b  fs=0053  gs=002b             efl=00000246
+ntdll!RtlReportFatalFailure+0x16:
+7723e62f eb33            jmp     ntdll!RtlReportFatalFailure+0x4b (7723e664)
+0582f300  c8718132
+0582f304  0c7912f8
+0582f308  00000002
+0582f30c  00000000
+0582f310  0582f344
+0582f314  c0000374
+0582f318  c0000374
+0582f31c  0582ecfc
+0582f320  0582f300
+0582f324  0582ecfc
+0582f328  0582f3bc
+0582f32c  771cf5e0 ntdll!_except_handler4
+0582f330  bad51022
+0582f334  00000000
+0582f338  0582f3cc
+0582f33c  7723e601 ntdll!RtlReportCriticalFailure+0x84
+0582f340  c87181c6
+0582f344  0c7912f8
+0582f348  00000002
+0582f34c  00000000
+0582f350  7727c920 ntdll!RtlpHeapFailureInfo
+0582f354  c0000374
+0582f358  c0000374
+0582f35c  00000001
+0582f360  00000000
+0582f364  7723e62f ntdll!RtlReportFatalFailure+0x16
+0582f368  00000001
+0582f36c  7727c920 ntdll!RtlpHeapFailureInfo
+0582f370  7727c950 ntdll!RtlpHeapFailureInfo+0x30
+0582f374  0582f328
+0582f378  00000007
+0582f37c  0582f3a4
+0582f380  05830000
+0582f384  6f84e4ed MSFS32!Ordinal10+0x10a8d
+0582f388  00000007
+0582f38c  0582f364
+0582f390  00000001
+0582f394  0582f3f8
+0582f398  771cf5e0 ntdll!_except_handler4
+0582f39c  bad521d2
+0582f3a0  fffffffe
+0582f3a4  0582f3c8
+0582f3a8  771b1de1 ntdll!RtlCaptureStackBackTrace+0x41
+0582f3ac  7727c950 ntdll!RtlpHeapFailureInfo+0x30
+0582f3b0  c87181c6
+0582f3b4  0582f340
+0582f3b8  00000002
+0582f3bc  0582f3f8
+0582f3c0  771cf5e0 ntdll!_except_handler4
+0582f3c4  bad51042
+0582f3c8  fffffffe
+0582f3cc  0582f408
+0582f3d0  77247863 ntdll!RtlpReportHeapFailure+0x2f
+0582f3d4  00000001
+0582f3d8  7727c950 ntdll!RtlpHeapFailureInfo+0x30
+0582f3dc  7724569e ntdll!RtlpHpHeapHandleError+0x8e
+0582f3e0  c8718602
+0582f3e4  0c7912f8
+0582f3e8  0c7912f8
+0582f3ec  00000000
+0582f3f0  0582f3e0
+0582f3f4  00000064
+0582f3f8  0582fcc8
+0582f3fc  771cf5e0 ntdll!_except_handler4
+0582f400  bad510a2
+0582f404  fffffffe
+0582f408  0582f420
+0582f40c  7724e192 ntdll!RtlpLogHeapFailure+0x43
+0582f410  00000008
+0582f414  037c0000
+0582f418  0c7912f8
+0582f41c  037c0000
+0582f420  0582f484
+0582f424  771e0dd1 ntdll!RtlpFreeHeapInternal+0xfa
+0582f428  0c7912f8
+0582f42c  00000000
+0582f430  00000000
+0582f434  00000000
+0582f438  0c791300
+0582f43c  037c0000
+0582f440  0000ffff
+0582f444  0582f494
+0582f448  64702574 MSMAPI32!DDCS_Leave+0x16
+0582f44c  0c121de8
+0582f450  648b833f MSPST32!MSProviderInit+0x26954
+0582f454  0c121de8
+0582f458  00000000
+0582f45c  6484aa40 MSMAPI32!REFTRACK_AddNoRef+0x90c7
+0582f460  64849d18 MSMAPI32!REFTRACK_AddNoRef+0x839f
+0582f464  037c05b8
+0582f468  0c128d68
+0582f46c  00000002
+0582f470  0582f498
+0582f474  0c791300
+0582f478  6484aa40 MSMAPI32!REFTRACK_AddNoRef+0x90c7
+0582f47c  037c0000
+0582f480  6484aa40 MSMAPI32!REFTRACK_AddNoRef+0x90c7
+0582f484  0582f4a4
+0582f488  7719f7e6 ntdll!RtlFreeHeap+0x46
+0582f48c  00000000
+0582f490  00000000
+0582f494  00000000
+0582f498  00000000
+0582f49c  00000000
+0582f4a0  64849d18 MSMAPI32!REFTRACK_AddNoRef+0x839f
+0582f4a4  0582f4d0
+0582f4a8  64708009 MSMAPI32!MAPIFreeBuffer+0x62
+0582f4ac  037c0000
+0582f4b0  00000000
+0582f4b4  0c791300
+0582f4b8  037c071c
+0582f4bc  00000000
+0582f4c0  1cea94a0
+0582f4c4  00000004
+0582f4c8  00000001
+0582f4cc  037c0000
+0582f4d0  0dccb530
+0582f4d4  6f84e4ed MSFS32!Ordinal10+0x10a8d
+0582f4d8  0c791308
+0582f4dc  00000000
+0582f4e0  1cea94a0
+0582f4e4  1cea9540
+0582f4e8  00000001
+0582f4ec  00000000
+0582f4f0  0c791560
+0582f4f4  0c791564
+0582f4f8  00000001
+0582f4fc  037c0718
+0582f500  15cf8890
+0582f504  0dcc6cf0
+0582f508  00000000
+0582f50c  00000001
+0582f510  80000000
+0582f514  0c791558
+0582f518  0c791558
+0582f51c  0000006e
+0582f520  0c7914e8
+0582f524  00000000
+0582f528  00000000
+0582f52c  00000000
+0582f530  00000016
+0582f534  0c7a4b18
+0582f538  1cea96c8
+0582f53c  000000d6
+0582f540  037c071c
+0582f544  00000000
+0582f548  0c739c40
+0582f54c  0582f584
+0582f550  00000001
+0582f554  00000000
+0582f558  00000016
+0582f55c  0c794d30
+0582f560  ffffffe0
+0582f564  646e6957 usp10!__castguard_check_failure_os_handled_fptr <PERF> (usp10+0x6957)
+0582f568  2f73776f
+0582f56c  696d6461
+0582f570  73772f6e
+0582f574  6700006c
+0582f578  00000000
+0582f57c  03580e58
+0582f580  00000070
+0582f584  03580000
+0582f588  03580294
+0582f58c  03580000
+0582f590  00000002
+0582f594  00000000
+0582f598  0000004e
+0582f59c  00000080
+0582f5a0  035800c0
+0582f5a4  03580294
+0582f5a8  0a00000a <Unloaded_d3d10warp.dll>+0x37000a
+0582f5ac  00000012
+0582f5b0  03580000
+0582f5b4  00000060
+0582f5b8  00000000
+0582f5bc  0582f5e0
+0582f5c0  0000000a
+0582f5c4  00000012
+0582f5c8  00000000
+0582f5cc  000a0000
+0582f5d0  00000000
+0582f5d4  00000080
+0582f5d8  03580001
+0582f5dc  00000001
+0582f5e0  0100010c
+0582f5e4  00000002
+0582f5e8  0358cd48
+0582f5ec  0358cd48
+0582f5f0  00000000
+0582f5f4  00000000
+0582f5f8  0358c900
+0582f5fc  00000012
+0582f600  0358cd50
+0582f604  00500049
+0582f608  002e004d
+0582f60c  006f004e
+0582f610  00650074
+0582f614  00000000
+0582f618  0dcc1858
+0582f61c  0000007f
+0582f620  0a8a0000
+0582f624  00000003
+0582f628  00000006
+0582f62c  0000000c
+0582f630  00000001
+0582f634  00000006
+0582f638  00000006
+0582f63c  03580270
+0582f640  0358cd4f
+0582f644  03580270
+0582f648  00000020
+0582f64c  00120023
+0582f650  0582fcc8
+0582f654  771cf5e0 ntdll!_except_handler4
+0582f658  bad53d52
+0582f65c  fffffffe
+0582f660  0582f6f0
+0582f664  7719d742 ntdll!RtlpAllocateHeapInternal+0xff2
+0582f668  00000055
+0582f66c  00000060
+0582f670  035802d4
+0582f674  0582f6c0
+0582f678  00000055
+0582f67c  03580000
+0582f680  00000000
+0582f684  00000400
+0582f688  0dcc1bf6
+0582f68c  00000400
+0582f690  00000005
+0582f694  00000000
+0582f698  00000000
+0582f69c  00000000
+0582f6a0  0582f714
+0582f6a4  7593919f user32!wvsprintfA+0x4cf
+0582f6a8  00000000
+0582f6ac  00000000
+0582f6b0  00000000
+0582f6b4  759392ee user32!wvsprintfA+0x61e
+0582f6b8  00000000
+0582f6bc  037c07a7
+0582f6c0  00000003
+0582f6c4  00000060
+0582f6c8  64849d28 MSMAPI32!REFTRACK_AddNoRef+0x83af
+0582f6cc  037e05b8
+0582f6d0  0000000c
+0582f6d4  0582f738
+0582f6d8  00000055
+0582f6dc  00000000
+0582f6e0  03580000
+0582f6e4  64702555 MSMAPI32!DDCS_Enter+0x55
+0582f6e8  6484aa40 MSMAPI32!REFTRACK_AddNoRef+0x90c7
+0582f6ec  00000055
+0582f6f0  0582f70c
+0582f6f4  7719c73e ntdll!RtlAllocateHeap+0x3e
+0582f6f8  00000000
+0582f6fc  00000000
+0582f700  00000002
+quit:
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\atlmfc.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\concurrency.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\cpp_rest.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\ObjectiveC.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\stl.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\Windows.Data.Json.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\Windows.Devices.Geolocation.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\Windows.Devices.Sensors.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\Windows.Media.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\windows.natvis'
+NatVis script unloaded from 'C:\Program Files\WindowsApps\Microsoft.WinDbg_1.2610.1001.0_x64__8wekyb3d8bbwe\x86\Visualizers\winrt.natvis'
